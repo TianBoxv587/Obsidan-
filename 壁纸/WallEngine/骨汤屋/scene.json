@@ -1,0 +1,186 @@
+{
+	"camera" : 
+	{
+		"center" : "0.00000 0.00000 0.00000",
+		"eye" : "0.00000 0.00000 1.00000",
+		"up" : "0.00000 1.00000 0.00000"
+	},
+	"general" : 
+	{
+		"ambientcolor" : "0.30000 0.30000 0.30000",
+		"bloom" : false,
+		"bloomhdrfeather" : 0.10000000149011612,
+		"bloomhdriterations" : 8,
+		"bloomhdrscatter" : 1.6189999580383301,
+		"bloomhdrstrength" : 2.0,
+		"bloomhdrthreshold" : 1.0,
+		"bloomstrength" : 2.0,
+		"bloomthreshold" : 0.64999997615814209,
+		"camerafade" : true,
+		"cameraparallax" : false,
+		"cameraparallaxamount" : 0.5,
+		"cameraparallaxdelay" : 0.10000000149011612,
+		"cameraparallaxmouseinfluence" : 0.5,
+		"camerapreview" : true,
+		"camerashake" : false,
+		"camerashakeamplitude" : 0.5,
+		"camerashakeroughness" : 1.0,
+		"camerashakespeed" : 3.0,
+		"clearcolor" : "0.70000 0.70000 0.70000",
+		"clearenabled" : true,
+		"farz" : 10000.0,
+		"fov" : 50.0,
+		"hdr" : false,
+		"nearz" : 0.0099999997764825821,
+		"orthogonalprojection" : 
+		{
+			"height" : 3632,
+			"width" : 3840
+		},
+		"skylightcolor" : "0.30000 0.30000 0.30000",
+		"zoom" : 1.0
+	},
+	"objects" : 
+	[
+		{
+			"alignment" : "center",
+			"alpha" : 1.0,
+			"angles" : "0.00000 0.00000 0.00000",
+			"brightness" : 1.0,
+			"color" : "1.00000 1.00000 1.00000",
+			"colorBlendMode" : 0,
+			"copybackground" : true,
+			"effects" : 
+			[
+				{
+					"file" : "effects/iris/effect.json",
+					"id" : 60,
+					"name" : "",
+					"passes" : 
+					[
+						{
+							"constantshadervalues" : 
+							{
+								"noiseamount" : 0.5,
+								"phase" : 0.0,
+								"rough" : 0.20000000000000001,
+								"scale" : "1 1",
+								"speed" : 0.37
+							},
+							"id" : 61,
+							"textures" : [ null, "masks/iris_mask_45c460c0" ]
+						}
+					],
+					"visible" : true
+				},
+				{
+					"file" : "effects/foliagesway/effect.json",
+					"id" : 38,
+					"name" : "",
+					"passes" : 
+					[
+						{
+							"combos" : 
+							{
+								"MODE" : 0
+							},
+							"constantshadervalues" : 
+							{
+								"phase" : 1.6200000000000001,
+								"power" : 1.0,
+								"ratio" : 0.29999999999999999,
+								"scale" : 0.029999999999999999,
+								"scrolldirection" : 0.0,
+								"speeduv" : 2.6099999999999999,
+								"strength" : 0.23999999999999999
+							},
+							"id" : 39,
+							"textures" : [ null, "masks/foliagesway_mask_24c57827", "util/noise" ]
+						}
+					],
+					"visible" : true
+				},
+				{
+					"file" : "effects/shake/effect.json",
+					"id" : 56,
+					"name" : "",
+					"passes" : 
+					[
+						{
+							"combos" : 
+							{
+								"AUDIOPROCESSING" : 0,
+								"DIRECTION" : 0,
+								"NOISE" : 0
+							},
+							"constantshadervalues" : 
+							{
+								"bounds" : "0 1",
+								"friction" : "1 1",
+								"speed" : 0.41999999999999998,
+								"strength" : 0.10000000000000001
+							},
+							"id" : 57,
+							"textures" : [ null, "masks/shake_mask_566a2c3b", "util/white" ]
+						}
+					],
+					"visible" : true
+				},
+				{
+					"file" : "effects/foliagesway/effect.json",
+					"id" : 78,
+					"name" : "",
+					"passes" : 
+					[
+						{
+							"constantshadervalues" : 
+							{
+								"phase" : 0.5,
+								"power" : 1.0,
+								"ratio" : 0.29999999999999999,
+								"scale" : 0.050000000000000003,
+								"scrolldirection" : 0.0,
+								"speeduv" : 1.8799999999999999,
+								"strength" : 0.40000000000000002
+							},
+							"id" : 79,
+							"textures" : [ null, "masks/foliagesway_mask_cccccba5", "util/noise" ]
+						}
+					],
+					"visible" : true
+				}
+			],
+			"id" : 14,
+			"image" : "models/肉骨茶 个性动漫美女 骨汤屋 二次元美女 4k动漫壁纸_彼岸图网.json",
+			"ledsource" : false,
+			"locktransforms" : false,
+			"name" : "肉骨茶",
+			"origin" : "1927.03857 1322.86084 0.00000",
+			"parallaxDepth" : "1.00000 1.00000",
+			"perspective" : false,
+			"scale" : "1.00641 1.00641 1.00000",
+			"size" : "3840.00000 3632.00000",
+			"solid" : true,
+			"visible" : true
+		},
+		{
+			"angles" : "0.00000 0.00000 0.00000",
+			"id" : 422,
+			"instanceoverride" : 
+			{
+				"alpha" : 0.43999999761581421,
+				"id" : 423,
+				"size" : 0.47999998927116394,
+				"speed" : 0.41999998688697815
+			},
+			"locktransforms" : false,
+			"name" : "Leaves 1",
+			"origin" : "1639.52869 1050.28088 0.00000",
+			"parallaxDepth" : "1.00000 1.00000",
+			"particle" : "particles/presets/leaves1.json",
+			"scale" : "1.83424 2.33479 1.00000",
+			"visible" : true
+		}
+	],
+	"version" : 1
+}

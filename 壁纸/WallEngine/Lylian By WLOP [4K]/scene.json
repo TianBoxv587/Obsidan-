@@ -1,0 +1,268 @@
+{
+	"camera" : 
+	{
+		"center" : "434.68204 257.72614 -1.00000",
+		"eye" : "434.68204 257.72614 0.00000",
+		"up" : "0.00000 1.00000 0.00000"
+	},
+	"general" : 
+	{
+		"ambientcolor" : "0.30000 0.30000 0.30000",
+		"bloom" : false,
+		"bloomhdrfeather" : 0.10000000149011612,
+		"bloomhdriterations" : 8,
+		"bloomhdrscatter" : 1.6189999580383301,
+		"bloomhdrstrength" : 2.0,
+		"bloomhdrthreshold" : 1.0,
+		"bloomstrength" : 2.0,
+		"bloomthreshold" : 0.64999997615814209,
+		"camerafade" : true,
+		"cameraparallax" : false,
+		"cameraparallaxamount" : 0.5,
+		"cameraparallaxdelay" : 0.10000000149011612,
+		"cameraparallaxmouseinfluence" : 0.5,
+		"camerapreview" : true,
+		"camerashake" : false,
+		"camerashakeamplitude" : 0.5,
+		"camerashakeroughness" : 1.0,
+		"camerashakespeed" : 3.0,
+		"clearcolor" : "0.38431 0.66667 0.72549",
+		"clearenabled" : true,
+		"farz" : 10000.0,
+		"fov" : 50.0,
+		"hdr" : false,
+		"nearz" : 0.0099999997764825821,
+		"orthogonalprojection" : 
+		{
+			"height" : 2160,
+			"width" : 3840
+		},
+		"skylightcolor" : "0.30000 0.30000 0.30000",
+		"zoom" : 1.0
+	},
+	"objects" : 
+	[
+		{
+			"alignment" : "center",
+			"alpha" : 1.0,
+			"angles" : "0.00000 0.00000 0.00000",
+			"brightness" : 1.0,
+			"color" : "1.00000 1.00000 1.00000",
+			"colorBlendMode" : 0,
+			"copybackground" : true,
+			"effects" : 
+			[
+				{
+					"file" : "effects/waterwaves/effect.json",
+					"id" : 331,
+					"name" : "",
+					"passes" : 
+					[
+						{
+							"constantshadervalues" : 
+							{
+								"direction" : -1.5108681716736889,
+								"perspective" : 0.02,
+								"scale" : 65.670000000000002,
+								"speed" : 3,
+								"strength" : 0.070000000000000007
+							},
+							"id" : 332,
+							"textures" : [ null, "masks/waterwaves_mask_0e5b0210" ]
+						}
+					],
+					"visible" : true
+				},
+				{
+					"file" : "effects/waterwaves/effect.json",
+					"id" : 80,
+					"name" : "",
+					"passes" : 
+					[
+						{
+							"constantshadervalues" : 
+							{
+								"direction" : -0.85773549393604309,
+								"perspective" : 0.02,
+								"scale" : 28.050000000000001,
+								"speed" : 3,
+								"strength" : 0.080000000000000002
+							},
+							"id" : 81,
+							"textures" : [ null, "masks/waterwaves_mask_13dd41d1" ]
+						}
+					],
+					"visible" : true
+				},
+				{
+					"file" : "effects/waterwaves/effect.json",
+					"id" : 182,
+					"name" : "hair",
+					"passes" : 
+					[
+						{
+							"constantshadervalues" : 
+							{
+								"direction" : -2.9955803958785179,
+								"perspective" : 0.01,
+								"scale" : 10.109999999999999,
+								"speed" : 3,
+								"strength" : 0.059999999999999998
+							},
+							"id" : 183,
+							"textures" : [ null, "masks/waterwaves_mask_e67921dd" ]
+						}
+					],
+					"visible" : true
+				},
+				{
+					"file" : "effects/iris/effect.json",
+					"id" : 251,
+					"name" : "",
+					"passes" : 
+					[
+						{
+							"constantshadervalues" : 
+							{
+								"noiseamount" : 0.0099999997764825821,
+								"phase" : 0.0,
+								"rough" : 0.20000000000000001,
+								"scale" : "0.88 0.88",
+								"speed" : 0.69999999999999996
+							},
+							"id" : 252,
+							"textures" : [ null, "masks/iris_mask_def74808" ]
+						}
+					],
+					"visible" : 
+					{
+						"user" : "eyemoveffect",
+						"value" : true
+					}
+				},
+				{
+					"file" : "effects/waterwaves/effect.json",
+					"id" : 62,
+					"name" : "",
+					"passes" : 
+					[
+						{
+							"constantshadervalues" : 
+							{
+								"direction" : 2.1375255443184029,
+								"perspective" : 0.0,
+								"scale" : 14.029999999999999,
+								"speed" : 2,
+								"strength" : 0.059999999999999998
+							},
+							"id" : 63,
+							"textures" : [ null, "masks/waterwaves_mask_7049a560" ]
+						}
+					],
+					"visible" : true
+				},
+				{
+					"file" : "effects/shake/effect.json",
+					"id" : 129,
+					"name" : "",
+					"passes" : 
+					[
+						{
+							"constantshadervalues" : 
+							{
+								"bounds" : "0 1",
+								"friction" : "1 1",
+								"speed" : 2,
+								"strength" : 0.059999999999999998
+							},
+							"id" : 130,
+							"textures" : [ null, "masks/shake_mask_a1386cbd", "util/white" ]
+						}
+					],
+					"visible" : 
+					{
+						"user" : "eyebrowneffect",
+						"value" : true
+					}
+				},
+				{
+					"file" : "effects/shake/effect.json",
+					"id" : 195,
+					"name" : "",
+					"passes" : 
+					[
+						{
+							"constantshadervalues" : 
+							{
+								"bounds" : "0 1",
+								"friction" : "1 1",
+								"speed" : 2,
+								"strength" : 0.050000000000000003
+							},
+							"id" : 196,
+							"textures" : [ null, "masks/shake_mask_bff2b2d1", "util/white" ]
+						}
+					],
+					"visible" : 
+					{
+						"user" : "moutheffect",
+						"value" : true
+					}
+				},
+				{
+					"file" : "effects/shake/effect.json",
+					"id" : 280,
+					"name" : "",
+					"passes" : 
+					[
+						{
+							"constantshadervalues" : 
+							{
+								"bounds" : "0 1",
+								"friction" : "1 1",
+								"speed" : 2,
+								"strength" : 0.080000000000000002
+							},
+							"id" : 281,
+							"textures" : [ null, "masks/shake_mask_b8c58ffa", "util/white" ]
+						}
+					],
+					"visible" : true
+				},
+				{
+					"file" : "effects/shake/effect.json",
+					"id" : 20,
+					"name" : "",
+					"passes" : 
+					[
+						{
+							"constantshadervalues" : 
+							{
+								"bounds" : "0 1",
+								"friction" : "1 1",
+								"speed" : 2,
+								"strength" : 0.070000000000000007
+							},
+							"id" : 21,
+							"textures" : [ null, "masks/shake_mask_c1800acc", "masks/shake_mask_b76bf109" ]
+						}
+					],
+					"visible" : true
+				}
+			],
+			"id" : 14,
+			"image" : "models/lylian-bride-girl-in-red-dress-4k-an-3840x2160[1].json",
+			"ledsource" : false,
+			"locktransforms" : false,
+			"name" : "lylian-bride-girl-in-red-dress-4k-an-3840x2160[1]",
+			"origin" : "1920.00000 1080.00000 0.00000",
+			"parallaxDepth" : "1.00000 1.00000",
+			"perspective" : false,
+			"scale" : "1.00000 1.00000 1.00000",
+			"size" : "3840.00000 2160.00000",
+			"solid" : true,
+			"visible" : true
+		}
+	],
+	"version" : 1
+}

@@ -1,0 +1,316 @@
+{
+	"camera" : 
+	{
+		"center" : "-51.55227 -60.09528 0.00000",
+		"eye" : "-51.55227 -60.09528 1.00000",
+		"up" : "0.00000 1.00000 0.00000"
+	},
+	"general" : 
+	{
+		"ambientcolor" : "0.30000 0.30000 0.30000",
+		"bloom" : false,
+		"bloomhdrfeather" : 0.10000000149011612,
+		"bloomhdrscatter" : 1.6189999580383301,
+		"bloomhdrstrength" : 2.0,
+		"bloomhdrthreshold" : 1.0,
+		"bloomstrength" : 2.0,
+		"bloomthreshold" : 0.64999997615814209,
+		"camerafade" : true,
+		"cameraparallax" : false,
+		"cameraparallaxamount" : 0.5,
+		"cameraparallaxdelay" : 0.10000000149011612,
+		"cameraparallaxmouseinfluence" : 0.5,
+		"camerapreview" : true,
+		"camerashake" : false,
+		"camerashakeamplitude" : 0.5,
+		"camerashakeroughness" : 1.0,
+		"camerashakespeed" : 3.0,
+		"clearcolor" : "0.70000 0.70000 0.70000",
+		"clearenabled" : true,
+		"farz" : 10000.0,
+		"fov" : 50.0,
+		"hdr" : false,
+		"nearz" : 0.0099999997764825821,
+		"orthogonalprojection" : 
+		{
+			"height" : 1080,
+			"width" : 1920
+		},
+		"skylightcolor" : "0.30000 0.30000 0.30000",
+		"zoom" : 1.0
+	},
+	"objects" : 
+	[
+		{
+			"alignment" : "center",
+			"alpha" : 1.0,
+			"angles" : "0.00000 0.00000 0.00000",
+			"brightness" : 1.0,
+			"color" : "1.00000 1.00000 1.00000",
+			"colorBlendMode" : 0,
+			"copybackground" : true,
+			"effects" : 
+			[
+				{
+					"file" : "effects/waterripple/effect.json",
+					"id" : 105,
+					"name" : "",
+					"passes" : 
+					[
+						{
+							"constantshadervalues" : 
+							{
+								"animationspeed" : 0.10000000000000001,
+								"ratio" : 0.68999999999999995,
+								"ripplestrength" : 0.089999999999999997,
+								"scale" : 0.64000000000000001,
+								"scrolldirection" : 2.9533711482850222,
+								"scrollspeed" : 0
+							},
+							"id" : 106,
+							"textures" : 
+							[
+								null,
+								"masks/waterripple_mask_46ba2f4f2a8721d058d6e0111301b4da9708919e",
+								"effects/waterripplenormal"
+							]
+						}
+					],
+					"visible" : true
+				},
+				{
+					"file" : "effects/waterripple/effect.json",
+					"id" : 122,
+					"name" : "",
+					"passes" : 
+					[
+						{
+							"constantshadervalues" : 
+							{
+								"animationspeed" : 0.11,
+								"ratio" : 3.3199999999999998,
+								"ripplestrength" : 0.10000000000000001,
+								"scale" : 0.14999999999999999,
+								"scrollspeed" : 0.059999999999999998
+							},
+							"id" : 123,
+							"textures" : 
+							[
+								null,
+								"masks/waterripple_mask_0bc1c22174251f5f2aa7511eafd659b4113884bc",
+								"effects/waterripplenormal"
+							]
+						}
+					],
+					"visible" : true
+				},
+				{
+					"file" : "effects/waterwaves/effect.json",
+					"id" : 144,
+					"name" : "",
+					"passes" : 
+					[
+						{
+							"constantshadervalues" : 
+							{
+								"direction" : 2.4199378027250322,
+								"scale" : 9.9100000000000001,
+								"speed" : 1.25,
+								"strength" : 0.089999999999999997
+							},
+							"id" : 145,
+							"textures" : 
+							[
+								null,
+								"masks/waterwaves_mask_62b9c1fa322be99c4dedcaf2cb797d3ad439d386"
+							]
+						}
+					],
+					"visible" : true
+				},
+				{
+					"file" : "effects/waterwaves/effect.json",
+					"id" : 154,
+					"name" : "",
+					"passes" : 
+					[
+						{
+							"constantshadervalues" : 
+							{
+								"direction" : -2.9764439761751662,
+								"scale" : 24.760000000000002,
+								"speed" : 1.49,
+								"strength" : 0.050000000000000003
+							},
+							"id" : 155,
+							"textures" : 
+							[
+								null,
+								"masks/waterwaves_mask_1ac8ac7193f3ae681bc7b915f06ddd93679fb143"
+							]
+						}
+					],
+					"visible" : true
+				},
+				{
+					"file" : "effects/waterwaves/effect.json",
+					"id" : 219,
+					"name" : "",
+					"passes" : 
+					[
+						{
+							"constantshadervalues" : 
+							{
+								"direction" : -2.1393208745259367,
+								"scale" : 34.659999999999997,
+								"speed" : 1
+							},
+							"id" : 220,
+							"textures" : 
+							[
+								null,
+								"masks/waterwaves_mask_ea73f7ff158461b087037db9bdce29afc8113c27"
+							]
+						}
+					],
+					"visible" : true
+				},
+				{
+					"file" : "effects/shake/effect.json",
+					"id" : 174,
+					"name" : "",
+					"passes" : 
+					[
+						{
+							"constantshadervalues" : 
+							{
+								"speed" : 1.04,
+								"strength" : 0.080000000000000002
+							},
+							"id" : 175,
+							"textures" : 
+							[
+								null,
+								"masks/shake_mask_8cbb8bd254f87386f8a74dff7c7b77f8cbe0569f",
+								"masks/shake_mask_5152205dd17cfb50bdc9a7a45a1b9863b76b92d9"
+							]
+						}
+					],
+					"visible" : true
+				}
+			],
+			"id" : 13,
+			"image" : "models/wallhaven-8oo8zy_1920x1080.json",
+			"ledsource" : false,
+			"locktransforms" : true,
+			"name" : "wallhaven-8oo8zy_1920x1080",
+			"origin" : "960.00000 540.00000 0.00000",
+			"parallaxDepth" : "1.00000 1.00000",
+			"perspective" : false,
+			"scale" : "1.00000 1.00000 1.00000",
+			"size" : "1920.00000 1080.00000",
+			"solid" : true,
+			"visible" : true
+		},
+		{
+			"angles" : "0.00000 0.00000 0.00000",
+			"id" : 18,
+			"instanceoverride" : 
+			{
+				"alpha" : 0.12999999523162842,
+				"count" : 0.10000000149011612,
+				"id" : 19,
+				"lifetime" : 0.51999998092651367,
+				"rate" : 0.40000000596046448,
+				"speed" : 5.0
+			},
+			"locktransforms" : false,
+			"name" : "Ocean bubbles",
+			"origin" : "1675.91455 13.40060 0.00000",
+			"parallaxDepth" : "1.00000 1.00000",
+			"particle" : "particles/presets/bubbles2.json",
+			"scale" : "1.38579 0.89369 0.56001",
+			"visible" : true
+		},
+		{
+			"angles" : "0.00000 0.00000 0.00000",
+			"id" : 27,
+			"instanceoverride" : 
+			{
+				"alpha" : 0.18999999761581421,
+				"count" : 0.10000000149011612,
+				"id" : 78,
+				"lifetime" : 0.38999998569488525,
+				"rate" : 0.37000000476837158,
+				"speed" : 5.0
+			},
+			"locktransforms" : false,
+			"name" : "Ocean bubbles",
+			"origin" : "54.74304 78.92960 0.00000",
+			"parallaxDepth" : "1.00000 1.00000",
+			"particle" : "particles/presets/bubbles2.json",
+			"scale" : "1.54610 0.89369 0.56001",
+			"visible" : true
+		},
+		{
+			"angles" : "0.00000 0.00000 0.00000",
+			"id" : 33,
+			"instanceoverride" : 
+			{
+				"alpha" : 0.18999999761581421,
+				"count" : 0.10000000149011612,
+				"id" : 35,
+				"lifetime" : 0.23999999463558197,
+				"rate" : 0.37000000476837158,
+				"speed" : 5.0
+			},
+			"locktransforms" : false,
+			"name" : "Ocean bubbles",
+			"origin" : "476.20752 300.80392 0.00000",
+			"parallaxDepth" : "1.00000 1.00000",
+			"particle" : "particles/presets/bubbles2.json",
+			"scale" : "1.14531 0.89369 0.56001",
+			"visible" : true
+		},
+		{
+			"angles" : "0.00000 0.00000 0.00000",
+			"id" : 85,
+			"instanceoverride" : 
+			{
+				"alpha" : 0.14000000059604645,
+				"count" : 0.10000000149011612,
+				"id" : 87,
+				"lifetime" : 0.31999999284744263,
+				"rate" : 0.23999999463558197,
+				"speed" : 5.0
+			},
+			"locktransforms" : false,
+			"name" : "Ocean bubbles",
+			"origin" : "1393.88245 134.99353 0.00000",
+			"parallaxDepth" : "1.00000 1.00000",
+			"particle" : "particles/presets/bubbles2.json",
+			"scale" : "1.14531 0.89369 0.56001",
+			"visible" : true
+		},
+		{
+			"angles" : "-0.00000 -0.00000 -0.31819",
+			"id" : 66,
+			"instanceoverride" : 
+			{
+				"alpha" : 0.090000003576278687,
+				"colorn" : "1.00000 1.00000 1.00000",
+				"id" : 67,
+				"rate" : 2.559999942779541,
+				"speed" : 0.23000000417232513
+			},
+			"locktransforms" : false,
+			"name" : "Light shafts 1",
+			"origin" : "1292.11255 534.15021 0.00000",
+			"parallaxDepth" : "1.00000 1.00000",
+			"particle" : "particles/presets/light_shafts_1.json",
+			"scale" : "2.17031 1.00000 1.00000",
+			"visible" : true
+		}
+	],
+	"version" : 1
+}

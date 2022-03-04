@@ -1,0 +1,1347 @@
+{
+	"camera" : 
+	{
+		"center" : "706.28650 -307.60901 0.00000",
+		"eye" : "706.28650 -307.60901 1.00000",
+		"up" : "0.00000 1.00000 0.00000"
+	},
+	"general" : 
+	{
+		"ambientcolor" : "0.91373 0.95686 1.00000",
+		"bloom" : false,
+		"bloomhdrfeather" : 0.1,
+		"bloomhdriterations" : 8,
+		"bloomhdrscatter" : 1.619,
+		"bloomhdrstrength" : 2.0,
+		"bloomhdrthreshold" : 1.0,
+		"bloomstrength" : 2.0,
+		"bloomthreshold" : 0.64999998,
+		"camerafade" : true,
+		"cameraparallax" : false,
+		"cameraparallaxamount" : 0.5,
+		"cameraparallaxdelay" : 0.1,
+		"cameraparallaxmouseinfluence" : 0.5,
+		"camerapreview" : true,
+		"camerashake" : false,
+		"camerashakeamplitude" : 0.5,
+		"camerashakeroughness" : 1.0,
+		"camerashakespeed" : 3.0,
+		"clearcolor" : "0.70000 0.70000 0.70000",
+		"clearenabled" : true,
+		"farz" : 10000.0,
+		"fov" : 50.0,
+		"hdr" : false,
+		"nearz" : 0.0099999998,
+		"orthogonalprojection" : 
+		{
+			"height" : 2160,
+			"width" : 3840
+		},
+		"skylightcolor" : "0.30000 0.30000 0.30000",
+		"zoom" : 1.0
+	},
+	"objects" : 
+	[
+		{
+			"alignment" : "center",
+			"alpha" : 1.0,
+			"angles" : "0.00000 0.00000 0.00000",
+			"brightness" : 1.0,
+			"color" : "1.00000 1.00000 1.00000",
+			"colorBlendMode" : 0,
+			"copybackground" : true,
+			"effects" : 
+			[
+				{
+					"file" : "effects/waterripple/effect.json",
+					"id" : 129,
+					"name" : "",
+					"passes" : 
+					[
+						{
+							"constantshadervalues" : 
+							{
+								"animationspeed" : 0.079999998,
+								"ratio" : 2.8599999,
+								"ripplestrength" : 0.039999999,
+								"scale" : 2,
+								"scrolldirection" : 0.83298129,
+								"scrollspeed" : 0.0
+							},
+							"id" : 130,
+							"textures" : [ null, "masks/waterripple_mask_325dd4b6", "effects/waterripplenormal" ]
+						}
+					],
+					"visible" : true
+				}
+			],
+			"id" : 19,
+			"image" : "models/Background.json",
+			"ledsource" : false,
+			"locktransforms" : true,
+			"name" : "Background",
+			"origin" : "1920.00000 1080.00000 0.00000",
+			"parallaxDepth" : "1.00000 1.00000",
+			"perspective" : false,
+			"scale" : "1.03000 1.03000 1.00000",
+			"size" : "3840.00000 2160.00000",
+			"solid" : true,
+			"visible" : true
+		},
+		{
+			"alignment" : "center",
+			"alpha" : 0.25,
+			"angles" : "0.00000 0.00000 0.00000",
+			"brightness" : 1.0,
+			"color" : "1.00000 1.00000 1.00000",
+			"colorBlendMode" : 31,
+			"copybackground" : true,
+			"effects" : 
+			[
+				{
+					"file" : "effects/pulse/effect.json",
+					"id" : 97,
+					"name" : "",
+					"passes" : 
+					[
+						{
+							"constantshadervalues" : 
+							{
+								"amount" : 0.5,
+								"bounds" : "0 1",
+								"noiseamount" : 0.0,
+								"noisespeed" : 0.38,
+								"phase" : 0.0,
+								"power" : 2.01,
+								"speed" : 2,
+								"tinthigh" : "1 0 0",
+								"tintlow" : "1 0.3686274509803922 0.3686274509803922"
+							},
+							"id" : 99,
+							"textures" : [ null, "util/noise" ]
+						}
+					],
+					"visible" : true
+				},
+				{
+					"file" : "effects/pulse/effect.json",
+					"id" : 106,
+					"name" : "",
+					"passes" : 
+					[
+						{
+							"combos" : 
+							{
+								"PULSEALPHA" : 1,
+								"PULSECOLOR" : 0
+							},
+							"constantshadervalues" : 
+							{
+								"amount" : 1.0,
+								"bounds" : "0 1",
+								"noiseamount" : 0.0,
+								"noisespeed" : 0.5,
+								"phase" : 0.0,
+								"power" : 1.0,
+								"speed" : 2
+							},
+							"id" : 107,
+							"textures" : [ null, "util/noise" ]
+						}
+					],
+					"visible" : true
+				}
+			],
+			"id" : 90,
+			"image" : "models/red_led.json",
+			"ledsource" : false,
+			"locktransforms" : false,
+			"name" : "red_led",
+			"origin" : "1035.90564 1455.00000 0.00000",
+			"parallaxDepth" : "1.00000 1.00000",
+			"perspective" : false,
+			"scale" : "1.00000 1.00000 1.00000",
+			"size" : "416.00000 416.00000",
+			"solid" : true,
+			"visible" : true
+		},
+		{
+			"alignment" : "center",
+			"alpha" : 0.5,
+			"angles" : "0.00000 0.00000 0.00000",
+			"brightness" : 1.0,
+			"color" : "1.00000 1.00000 1.00000",
+			"colorBlendMode" : 31,
+			"copybackground" : true,
+			"effects" : 
+			[
+				{
+					"file" : "effects/pulse/effect.json",
+					"id" : 119,
+					"name" : "",
+					"passes" : 
+					[
+						{
+							"constantshadervalues" : 
+							{
+								"amount" : 0.5,
+								"bounds" : "0 1",
+								"noiseamount" : 0,
+								"noisespeed" : 0.38,
+								"phase" : 0,
+								"power" : 2.01,
+								"speed" : 2,
+								"tinthigh" : "1 0 0",
+								"tintlow" : "1 0.3686274509803922 0.3686274509803922"
+							},
+							"id" : 120,
+							"textures" : [ null, "util/noise" ]
+						}
+					],
+					"visible" : true
+				},
+				{
+					"file" : "effects/pulse/effect.json",
+					"id" : 125,
+					"name" : "",
+					"passes" : 
+					[
+						{
+							"combos" : 
+							{
+								"PULSEALPHA" : 1,
+								"PULSECOLOR" : 0
+							},
+							"constantshadervalues" : 
+							{
+								"amount" : 1,
+								"bounds" : "0 1",
+								"noiseamount" : 0,
+								"noisespeed" : 0.5,
+								"phase" : 0,
+								"power" : 1,
+								"speed" : 2
+							},
+							"id" : 126,
+							"textures" : [ null, "util/noise" ]
+						}
+					],
+					"visible" : true
+				}
+			],
+			"id" : 113,
+			"image" : "models/red_led2.json",
+			"ledsource" : false,
+			"locktransforms" : false,
+			"name" : "red_led2",
+			"origin" : "1031.68079 1452.75085 0.00000",
+			"parallaxDepth" : "1.00000 1.00000",
+			"perspective" : false,
+			"scale" : "1.00000 1.00000 1.00000",
+			"size" : "416.00000 416.00000",
+			"solid" : true,
+			"visible" : true
+		},
+		{
+			"angles" : "0.00000 0.00000 0.00000",
+			"id" : 175,
+			"instanceoverride" : 
+			{
+				"controlpoint2" : "2499.06006 1249.16760 0.00000",
+				"controlpoint3" : "1460.45972 902.85541 0.00000",
+				"controlpoint4" : "195.87085 764.56726 0.00000",
+				"controlpoint7" : "-2137.49805 -809.67224 0.00000",
+				"count" : 1.05,
+				"id" : 0,
+				"speed" : 1.0700001
+			},
+			"locktransforms" : false,
+			"name" : "Bird",
+			"origin" : "4093.28174 1203.36877 0.00000",
+			"parallaxDepth" : "1.00000 1.00000",
+			"particle" : "particles/workshop/2478413376/Bird.json",
+			"scale" : "1.00000 1.00000 1.00000",
+			"visible" : true
+		},
+		{
+			"angles" : "0.00000 0.00000 0.00000",
+			"id" : 187,
+			"instanceoverride" : 
+			{
+				"controlpoint2" : "1799.67493 -322.44818 0.00000",
+				"controlpoint3" : "450.48431 164.08881 0.00000",
+				"controlpoint4" : "592.03900 734.94232 0.00000",
+				"id" : 189,
+				"rate" : 0.69
+			},
+			"locktransforms" : false,
+			"name" : "Bird",
+			"origin" : "3398.21631 -72.52826 0.00000",
+			"parallaxDepth" : "1.00000 1.00000",
+			"particle" : "particles/White_Bird.json",
+			"scale" : "1.00000 1.00000 1.00000",
+			"visible" : true
+		},
+		{
+			"alignment" : "center",
+			"alpha" : 1.0,
+			"angles" : "0.00000 0.00000 0.00000",
+			"brightness" : 1.0,
+			"color" : "1.00000 1.00000 1.00000",
+			"colorBlendMode" : 0,
+			"copybackground" : true,
+			"id" : 203,
+			"image" : "models/Background_Building01.json",
+			"ledsource" : false,
+			"locktransforms" : false,
+			"name" : "Background_Building01",
+			"origin" : "67.31647 525.93469 0.00000",
+			"parallaxDepth" : "1.00000 1.00000",
+			"perspective" : false,
+			"scale" : "1.03000 1.03000 1.00000",
+			"size" : "243.00000 272.00000",
+			"solid" : true,
+			"visible" : true
+		},
+		{
+			"alignment" : "center",
+			"alpha" : 1.0,
+			"angles" : "0.00000 0.00000 0.00000",
+			"animationlayers" : 
+			[
+				{
+					"additive" : false,
+					"animation" : 68,
+					"blend" : 0.69999999,
+					"id" : 71,
+					"name" : "Animation 1",
+					"rate" : 0.40000001,
+					"visible" : true
+				}
+			],
+			"brightness" : 1.0,
+			"color" : "1.00000 1.00000 1.00000",
+			"colorBlendMode" : 0,
+			"copybackground" : true,
+			"id" : 36,
+			"image" : "models/Crane.json",
+			"ledsource" : false,
+			"locktransforms" : false,
+			"name" : "Crane",
+			"origin" : "1772.40552 1785.55603 0.00000",
+			"parallaxDepth" : "1.00000 1.00000",
+			"perspective" : false,
+			"scale" : "1.00000 1.00000 1.00000",
+			"size" : "74.00000 486.00000",
+			"solid" : true,
+			"visible" : true
+		},
+		{
+			"alignment" : "center",
+			"alpha" : 1.0,
+			"angles" : "0.00000 0.00000 0.00000",
+			"brightness" : 1.0,
+			"color" : "1.00000 1.00000 1.00000",
+			"colorBlendMode" : 0,
+			"copybackground" : true,
+			"effects" : 
+			[
+				{
+					"file" : "effects/opacity/effect.json",
+					"id" : 102,
+					"name" : "",
+					"passes" : 
+					[
+						{
+							"constantshadervalues" : 
+							{
+								"alpha" : 1.0
+							},
+							"id" : 103,
+							"textures" : [ null, "masks/opacity_mask_aa1d6557" ]
+						}
+					],
+					"visible" : true
+				}
+			],
+			"id" : 98,
+			"image" : "models/Background_Crane.json",
+			"ledsource" : false,
+			"locktransforms" : false,
+			"name" : "Background_Crane",
+			"origin" : "1754.39111 2108.94214 0.00000",
+			"parallaxDepth" : "1.00000 1.00000",
+			"perspective" : false,
+			"scale" : "1.03000 1.03000 1.00000",
+			"size" : "112.00000 163.00000",
+			"solid" : true,
+			"visible" : true
+		},
+		{
+			"alignment" : "center",
+			"alpha" : 1.0,
+			"angles" : "0.00000 0.00000 0.00000",
+			"brightness" : 1.0,
+			"color" : "1.00000 1.00000 1.00000",
+			"colorBlendMode" : 0,
+			"copybackground" : true,
+			"id" : 24,
+			"image" : "models/Robot_Body.json",
+			"ledsource" : false,
+			"locktransforms" : false,
+			"name" : "Robot_Body",
+			"origin" : "2837.00000 1080.00000 0.00000",
+			"parallaxDepth" : "1.00000 1.00000",
+			"perspective" : false,
+			"scale" : "1.03000 1.03000 1.00000",
+			"size" : "2054.00000 2160.00000",
+			"solid" : true,
+			"visible" : true
+		},
+		{
+			"alignment" : "center",
+			"alpha" : 1.0,
+			"angles" : "0.00000 0.00000 0.00000",
+			"animationlayers" : 
+			[
+				{
+					"additive" : false,
+					"animation" : 304,
+					"blend" : 0.5,
+					"id" : 309,
+					"name" : "Animation 1",
+					"rate" : 0.34999999,
+					"visible" : true
+				}
+			],
+			"brightness" : 1.0,
+			"color" : "1.00000 1.00000 1.00000",
+			"colorBlendMode" : 0,
+			"copybackground" : true,
+			"id" : 28,
+			"image" : "models/Robot_Head.json",
+			"ledsource" : false,
+			"locktransforms" : false,
+			"name" : "Robot_Head",
+			"origin" : "2499.45117 1110.91833 0.00000",
+			"parallaxDepth" : "1.00000 1.00000",
+			"perspective" : false,
+			"scale" : "1.03000 1.03000 1.00000",
+			"size" : "1118.00000 1166.00000",
+			"solid" : true,
+			"visible" : true
+		},
+		{
+			"alignment" : "center",
+			"alpha" : 1.0,
+			"angles" : "0.00000 0.00000 0.00000",
+			"animationlayers" : 
+			[
+				{
+					"additive" : false,
+					"animation" : 201,
+					"blend" : 0.75,
+					"id" : 224,
+					"name" : "Animation 1",
+					"rate" : 0.69999999,
+					"visible" : true
+				}
+			],
+			"brightness" : 1.0,
+			"color" : "1.00000 1.00000 1.00000",
+			"colorBlendMode" : 0,
+			"copybackground" : true,
+			"id" : 153,
+			"image" : "models/Arm_Right.json",
+			"ledsource" : false,
+			"locktransforms" : false,
+			"name" : "Arm_Right",
+			"origin" : "3204.72095 876.51312 0.00000",
+			"parallaxDepth" : "1.00000 1.00000",
+			"perspective" : false,
+			"scale" : "1.03000 1.03000 1.00000",
+			"size" : "120.00000 166.00000",
+			"solid" : true,
+			"visible" : true
+		},
+		{
+			"alignment" : "center",
+			"alpha" : 1.0,
+			"angles" : "-0.00000 -0.00000 -0.71996",
+			"brightness" : 1.0,
+			"color" : "1.00000 1.00000 1.00000",
+			"colorBlendMode" : 0,
+			"copybackground" : true,
+			"effects" : 
+			[
+				{
+					"file" : "effects/waterwaves/effect.json",
+					"id" : 343,
+					"name" : "",
+					"passes" : 
+					[
+						{
+							"constantshadervalues" : 
+							{
+								"direction" : -1.5707964,
+								"perspective" : 0.0,
+								"scale" : 2,
+								"speed" : 5.0,
+								"strength" : 0.22
+							},
+							"id" : 344,
+							"textures" : [ null, "masks/waterwaves_mask_135e46d6" ]
+						}
+					],
+					"visible" : true
+				}
+			],
+			"id" : 342,
+			"image" : "models/Hair_01.json",
+			"ledsource" : false,
+			"locktransforms" : false,
+			"name" : "Hair_01",
+			"origin" : "3256.23291 962.39801 0.00000",
+			"parallaxDepth" : "1.00000 1.00000",
+			"perspective" : false,
+			"scale" : "1.17308 -1.20660 1.11722",
+			"size" : "122.00000 80.00000",
+			"solid" : true,
+			"visible" : true
+		},
+		{
+			"alignment" : "center",
+			"alpha" : 1.0,
+			"angles" : "0.00000 0.00000 0.00000",
+			"brightness" : 1.0,
+			"color" : "1.00000 1.00000 1.00000",
+			"colorBlendMode" : 0,
+			"copybackground" : true,
+			"effects" : 
+			[
+				{
+					"file" : "effects/opacity/effect.json",
+					"id" : 242,
+					"name" : "",
+					"passes" : 
+					[
+						{
+							"constantshadervalues" : 
+							{
+								"alpha" : 1.0
+							},
+							"id" : 243,
+							"textures" : [ null, "masks/opacity_mask_19ff613e" ]
+						}
+					],
+					"visible" : true
+				},
+				{
+					"file" : "effects/shake/effect.json",
+					"id" : 210,
+					"name" : "",
+					"passes" : 
+					[
+						{
+							"constantshadervalues" : 
+							{
+								"bounds" : "0 1",
+								"friction" : "1 1",
+								"speed" : 0.69,
+								"strength" : 0.07
+							},
+							"id" : 211,
+							"textures" : [ null, "masks/shake_mask_289a3ee0", "util/white" ]
+						}
+					],
+					"visible" : true
+				}
+			],
+			"id" : 32,
+			"image" : "models/Main.json",
+			"ledsource" : false,
+			"locktransforms" : true,
+			"name" : "Main",
+			"origin" : "3179.23853 703.91235 0.00000",
+			"parallaxDepth" : "1.00000 1.00000",
+			"perspective" : false,
+			"scale" : "1.03000 1.03000 1.00000",
+			"size" : "430.00000 824.00000",
+			"solid" : true,
+			"visible" : true
+		},
+		{
+			"alignment" : "center",
+			"alpha" : 1.0,
+			"angles" : "0.00000 0.00000 0.00000",
+			"brightness" : 1.0,
+			"color" : "1.00000 1.00000 1.00000",
+			"colorBlendMode" : 0,
+			"copybackground" : true,
+			"effects" : 
+			[
+				{
+					"file" : "effects/waterwaves/effect.json",
+					"id" : 299,
+					"name" : "",
+					"passes" : 
+					[
+						{
+							"constantshadervalues" : 
+							{
+								"direction" : -1.5707964,
+								"perspective" : 0.0,
+								"scale" : 2,
+								"speed" : 5.0,
+								"strength" : 0.22
+							},
+							"id" : 300,
+							"textures" : [ null, "masks/waterwaves_mask_135e46d6" ]
+						}
+					],
+					"visible" : false
+				},
+				{
+					"file" : "effects/waterwaves/effect.json",
+					"id" : 296,
+					"name" : "",
+					"passes" : 
+					[
+						{
+							"constantshadervalues" : 
+							{
+								"direction" : 1.670465,
+								"perspective" : 0,
+								"scale" : 3,
+								"speed" : 5,
+								"strength" : 0.27000001
+							},
+							"id" : 297,
+							"textures" : [ null, "masks/waterwaves_mask_2d6b8656" ]
+						}
+					],
+					"visible" : true
+				}
+			],
+			"id" : 161,
+			"image" : "models/Hair_01.json",
+			"ledsource" : false,
+			"locktransforms" : false,
+			"name" : "Hair_01",
+			"origin" : "3257.93701 1001.21857 0.00000",
+			"parallaxDepth" : "1.00000 1.00000",
+			"perspective" : false,
+			"scale" : "1.05000 1.08000 1.00000",
+			"size" : "122.00000 80.00000",
+			"solid" : true,
+			"visible" : true
+		},
+		{
+			"alignment" : "center",
+			"alpha" : 1.0,
+			"angles" : "0.00000 0.00000 0.00000",
+			"brightness" : 1.0,
+			"color" : "1.00000 1.00000 1.00000",
+			"colorBlendMode" : 0,
+			"copybackground" : true,
+			"effects" : 
+			[
+				{
+					"file" : "effects/waterwaves/effect.json",
+					"id" : 237,
+					"name" : "",
+					"passes" : 
+					[
+						{
+							"constantshadervalues" : 
+							{
+								"direction" : -1.5208379,
+								"perspective" : 0,
+								"scale" : 2,
+								"speed" : 5,
+								"strength" : 0.25
+							},
+							"id" : 238,
+							"textures" : [ null, "masks/waterwaves_mask_135e46d6" ]
+						}
+					],
+					"visible" : false
+				},
+				{
+					"file" : "effects/waterwaves/effect.json",
+					"id" : 290,
+					"name" : "",
+					"passes" : 
+					[
+						{
+							"constantshadervalues" : 
+							{
+								"direction" : 2.1785984,
+								"perspective" : 0,
+								"scale" : 2.5,
+								"speed" : 3.25,
+								"strength" : 0.28
+							},
+							"id" : 291,
+							"textures" : [ null, "masks/waterwaves_mask_653af6a2" ]
+						}
+					],
+					"visible" : true
+				}
+			],
+			"id" : 170,
+			"image" : "models/Hair_03.json",
+			"ledsource" : false,
+			"locktransforms" : false,
+			"name" : "Hair_03",
+			"origin" : "3253.72095 947.38135 0.00000",
+			"parallaxDepth" : "1.00000 1.00000",
+			"perspective" : false,
+			"scale" : "1.03000 1.03000 1.00000",
+			"size" : "138.00000 119.00000",
+			"solid" : true,
+			"visible" : true
+		},
+		{
+			"alignment" : "center",
+			"alpha" : 1.0,
+			"angles" : "0.00000 0.00000 0.00000",
+			"brightness" : 1.0,
+			"color" : "1.00000 1.00000 1.00000",
+			"colorBlendMode" : 0,
+			"copybackground" : true,
+			"effects" : 
+			[
+				{
+					"file" : "effects/waterwaves/effect.json",
+					"id" : 313,
+					"name" : "",
+					"passes" : 
+					[
+						{
+							"constantshadervalues" : 
+							{
+								"direction" : -1.5707964,
+								"perspective" : 0.0099999998,
+								"scale" : 1.5,
+								"speed" : 4.0599999,
+								"strength" : 0.37
+							},
+							"id" : 314,
+							"textures" : [ null, "masks/waterwaves_mask_135e46d6" ]
+						}
+					],
+					"visible" : false
+				},
+				{
+					"file" : "effects/waterwaves/effect.json",
+					"id" : 274,
+					"name" : "",
+					"passes" : 
+					[
+						{
+							"constantshadervalues" : 
+							{
+								"direction" : 1.670465,
+								"perspective" : 0.0,
+								"scale" : 3,
+								"speed" : 5.0,
+								"strength" : 0.28999999
+							},
+							"id" : 275,
+							"textures" : [ null, "masks/waterwaves_mask_2d6b8656" ]
+						}
+					],
+					"visible" : true
+				}
+			],
+			"id" : 165,
+			"image" : "models/Hair_02.json",
+			"ledsource" : false,
+			"locktransforms" : false,
+			"name" : "Hair_02",
+			"origin" : "3273.01318 981.47833 0.00000",
+			"parallaxDepth" : "1.00000 1.00000",
+			"perspective" : false,
+			"scale" : "1.03000 1.03000 1.00000",
+			"size" : "182.00000 94.00000",
+			"solid" : true,
+			"visible" : true
+		},
+		{
+			"alignment" : "center",
+			"alpha" : 1.0,
+			"angles" : "0.00000 0.00000 0.00000",
+			"brightness" : 1.0,
+			"color" : "1.00000 1.00000 1.00000",
+			"colorBlendMode" : 0,
+			"copybackground" : true,
+			"effects" : 
+			[
+				{
+					"file" : "effects/waterwaves/effect.json",
+					"id" : 319,
+					"name" : "",
+					"passes" : 
+					[
+						{
+							"constantshadervalues" : 
+							{
+								"direction" : -1.5102643,
+								"perspective" : 0,
+								"scale" : 3,
+								"speed" : 6.2199998,
+								"strength" : 0.31999999
+							},
+							"id" : 320,
+							"textures" : [ null, "masks/waterwaves_mask_135e46d6" ]
+						}
+					],
+					"visible" : false
+				},
+				{
+					"file" : "effects/waterwaves/effect.json",
+					"id" : 293,
+					"name" : "",
+					"passes" : 
+					[
+						{
+							"constantshadervalues" : 
+							{
+								"direction" : 1.670465,
+								"perspective" : 0,
+								"scale" : 3,
+								"speed" : 4.8000002,
+								"strength" : 0.36000001
+							},
+							"id" : 294,
+							"textures" : [ null, "masks/waterwaves_mask_2d6b8656" ]
+						}
+					],
+					"visible" : true
+				}
+			],
+			"id" : 176,
+			"image" : "models/Hair_04.json",
+			"ledsource" : false,
+			"locktransforms" : false,
+			"name" : "Hair_04",
+			"origin" : "3267.58740 953.95984 0.00000",
+			"parallaxDepth" : "1.00000 1.00000",
+			"perspective" : false,
+			"scale" : "1.03000 1.03000 1.00000",
+			"size" : "191.00000 88.00000",
+			"solid" : true,
+			"visible" : true
+		},
+		{
+			"alignment" : "center",
+			"alpha" : 1.0,
+			"angles" : "0.00000 0.00000 0.00000",
+			"brightness" : 1.0,
+			"color" : "1.00000 1.00000 1.00000",
+			"colorBlendMode" : 0,
+			"copybackground" : true,
+			"effects" : 
+			[
+				{
+					"file" : "effects/waterwaves/effect.json",
+					"id" : 322,
+					"name" : "",
+					"passes" : 
+					[
+						{
+							"constantshadervalues" : 
+							{
+								"direction" : -2.910502,
+								"perspective" : 0,
+								"scale" : 2,
+								"speed" : 5,
+								"strength" : 0.22
+							},
+							"id" : 323,
+							"textures" : [ null, "masks/waterwaves_mask_0dec1cf5" ]
+						}
+					],
+					"visible" : true
+				}
+			],
+			"id" : 182,
+			"image" : "models/Hair_05.json",
+			"ledsource" : false,
+			"locktransforms" : false,
+			"name" : "Hair_05",
+			"origin" : "3125.63916 1033.82190 0.00000",
+			"parallaxDepth" : "1.00000 1.00000",
+			"perspective" : false,
+			"scale" : "1.03000 1.03000 1.00000",
+			"size" : "54.00000 84.00000",
+			"solid" : true,
+			"visible" : true
+		},
+		{
+			"alignment" : "center",
+			"alpha" : 1.0,
+			"angles" : "0.00000 0.00000 0.00000",
+			"brightness" : 1.0,
+			"color" : "1.00000 1.00000 1.00000",
+			"colorBlendMode" : 0,
+			"copybackground" : true,
+			"effects" : 
+			[
+				{
+					"file" : "effects/waterwaves/effect.json",
+					"id" : 336,
+					"name" : "",
+					"passes" : 
+					[
+						{
+							"constantshadervalues" : 
+							{
+								"direction" : -2.910502,
+								"perspective" : 0,
+								"scale" : 2,
+								"speed" : 3.52,
+								"strength" : 0.28999999
+							},
+							"id" : 337,
+							"textures" : [ null, "masks/waterwaves_mask_0dec1cf5" ]
+						}
+					],
+					"visible" : true
+				}
+			],
+			"id" : 186,
+			"image" : "models/Hair_06.json",
+			"ledsource" : false,
+			"locktransforms" : false,
+			"name" : "Hair_06",
+			"origin" : "3145.32471 1029.44592 0.00000",
+			"parallaxDepth" : "1.00000 1.00000",
+			"perspective" : false,
+			"scale" : "1.03000 1.03000 1.00000",
+			"size" : "57.00000 90.00000",
+			"solid" : true,
+			"visible" : true
+		},
+		{
+			"alignment" : "center",
+			"alpha" : 1.0,
+			"angles" : "0.00000 0.00000 0.00000",
+			"brightness" : 1.0,
+			"color" : "1.00000 1.00000 1.00000",
+			"colorBlendMode" : 0,
+			"copybackground" : true,
+			"effects" : 
+			[
+				{
+					"file" : "effects/waterwaves/effect.json",
+					"id" : 339,
+					"name" : "",
+					"passes" : 
+					[
+						{
+							"constantshadervalues" : 
+							{
+								"direction" : 3.0727363,
+								"perspective" : 0,
+								"scale" : 2,
+								"speed" : 3.25,
+								"strength" : 0.28999999
+							},
+							"id" : 340,
+							"textures" : [ null, "masks/waterwaves_mask_0dec1cf5" ]
+						}
+					],
+					"visible" : true
+				}
+			],
+			"id" : 192,
+			"image" : "models/Hair_07.json",
+			"ledsource" : false,
+			"locktransforms" : false,
+			"name" : "Hair_07",
+			"origin" : "3173.01685 1019.09637 0.00000",
+			"parallaxDepth" : "1.00000 1.00000",
+			"perspective" : false,
+			"scale" : "1.05000 1.05000 1.00000",
+			"size" : "60.00000 81.00000",
+			"solid" : true,
+			"visible" : true
+		},
+		{
+			"alignment" : "center",
+			"alpha" : 1.0,
+			"angles" : "0.00000 0.00000 0.00000",
+			"animationlayers" : 
+			[
+				{
+					"additive" : false,
+					"animation" : 230,
+					"blend" : 0.69999999,
+					"id" : 255,
+					"name" : "Animation 2",
+					"rate" : 0.85000002,
+					"visible" : true
+				}
+			],
+			"brightness" : 1.0,
+			"color" : "1.00000 1.00000 1.00000",
+			"colorBlendMode" : 0,
+			"copybackground" : true,
+			"effects" : 
+			[
+				{
+					"file" : "effects/opacity/effect.json",
+					"id" : 266,
+					"name" : "",
+					"passes" : 
+					[
+						{
+							"constantshadervalues" : 
+							{
+								"alpha" : 1.0
+							},
+							"id" : 267,
+							"textures" : [ null, "masks/opacity_mask_f0a9e509" ]
+						}
+					],
+					"visible" : true
+				}
+			],
+			"id" : 149,
+			"image" : "models/Leg.json",
+			"ledsource" : false,
+			"locktransforms" : false,
+			"name" : "Leg",
+			"origin" : "3115.64600 564.61810 0.00000",
+			"parallaxDepth" : "1.00000 1.00000",
+			"perspective" : false,
+			"scale" : "1.03000 1.03000 1.00000",
+			"size" : "128.00000 448.00000",
+			"solid" : true,
+			"visible" : true
+		},
+		{
+			"alignment" : "center",
+			"alpha" : 0.72000003,
+			"angles" : "0.00000 0.00000 0.00000",
+			"animationlayers" : 
+			[
+				{
+					"additive" : false,
+					"animation" : 373,
+					"blend" : 1.0,
+					"id" : 190,
+					"name" : "Animation 2",
+					"rate" : 0.85000002,
+					"visible" : true
+				}
+			],
+			"brightness" : 1.0,
+			"color" : "1.00000 1.00000 1.00000",
+			"colorBlendMode" : 0,
+			"copybackground" : true,
+			"effects" : 
+			[
+				{
+					"file" : "effects/tint/effect.json",
+					"id" : 194,
+					"name" : "",
+					"passes" : 
+					[
+						{
+							"constantshadervalues" : 
+							{
+								"alpha" : 1.0,
+								"color" : "0 0 0"
+							},
+							"id" : 195
+						}
+					],
+					"visible" : true
+				},
+				{
+					"file" : "effects/blurprecise/effect.json",
+					"id" : 199,
+					"name" : "",
+					"passes" : 
+					[
+						{
+							"constantshadervalues" : 
+							{
+								"scale" : "1 1"
+							},
+							"id" : 200
+						},
+						{
+							"combos" : 
+							{
+								"VERTICAL" : 1
+							},
+							"constantshadervalues" : 
+							{
+								"scale" : "1 1"
+							},
+							"id" : 202
+						}
+					],
+					"visible" : true
+				},
+				{
+					"file" : "effects/opacity/effect.json",
+					"id" : 260,
+					"name" : "",
+					"passes" : 
+					[
+						{
+							"constantshadervalues" : 
+							{
+								"alpha" : 1.0
+							},
+							"id" : 261,
+							"textures" : [ null, "masks/opacity_mask_888e65a3" ]
+						}
+					],
+					"visible" : true
+				}
+			],
+			"id" : 185,
+			"image" : "models/Arm_Left.json",
+			"ledsource" : false,
+			"locktransforms" : false,
+			"name" : "Arm_Left Shadow",
+			"origin" : "3151.91309 763.81799 0.00000",
+			"parallaxDepth" : "1.00000 1.00000",
+			"perspective" : false,
+			"scale" : "1.09000 1.03000 1.00000",
+			"size" : "160.00000 414.00000",
+			"solid" : true,
+			"visible" : true
+		},
+		{
+			"alignment" : "center",
+			"alpha" : 1.0,
+			"angles" : "0.00000 0.00000 0.00000",
+			"animationlayers" : 
+			[
+				{
+					"additive" : false,
+					"animation" : 373,
+					"blend" : 1.0,
+					"id" : 376,
+					"name" : "Animation 2",
+					"rate" : 0.85000002,
+					"visible" : true
+				}
+			],
+			"brightness" : 1.0,
+			"color" : "1.00000 1.00000 1.00000",
+			"colorBlendMode" : 0,
+			"copybackground" : true,
+			"effects" : 
+			[
+				{
+					"file" : "effects/opacity/effect.json",
+					"id" : 733,
+					"name" : "",
+					"passes" : 
+					[
+						{
+							"constantshadervalues" : 
+							{
+								"alpha" : 1.0
+							},
+							"id" : 734,
+							"textures" : [ null, "masks/opacity_mask_8ffe494b" ]
+						}
+					],
+					"visible" : true
+				}
+			],
+			"id" : 157,
+			"image" : "models/Arm_Left.json",
+			"ledsource" : false,
+			"locktransforms" : false,
+			"name" : "Arm_Left",
+			"origin" : "3138.18286 761.85651 0.00000",
+			"parallaxDepth" : "1.00000 1.00000",
+			"perspective" : false,
+			"scale" : "1.09000 1.03000 1.00000",
+			"size" : "160.00000 414.00000",
+			"solid" : true,
+			"visible" : true
+		},
+		{
+			"angles" : "0.00000 0.00000 0.00000",
+			"color" : "1.00000 1.00000 1.00000",
+			"id" : 329,
+			"intensity" : 1.0,
+			"light" : "point",
+			"locktransforms" : false,
+			"name" : "",
+			"origin" : "577.91333 1488.32703 957.00000",
+			"parallaxDepth" : "0.00000 0.00000",
+			"radius" : 2048.0,
+			"scale" : "10.00000 10.00000 1.00000",
+			"visible" : true
+		},
+		{
+			"angles" : "0.00000 0.00000 0.00000",
+			"color" : "0.63922 0.66667 1.00000",
+			"id" : 332,
+			"intensity" : 0.80000001,
+			"light" : "point",
+			"locktransforms" : false,
+			"name" : "",
+			"origin" : "1507.26221 160.98846 957.00000",
+			"parallaxDepth" : "0.00000 0.00000",
+			"radius" : 1516.89,
+			"scale" : "10.00000 10.00000 1.00000",
+			"visible" : true
+		},
+		{
+			"angles" : "0.00000 0.00000 2.70526",
+			"id" : 397,
+			"image" : null,
+			"instanceoverride" : 
+			{
+				"alpha" : 2.0,
+				"colorn" : "1.00000 1.00000 1.00000",
+				"count" : 0.1,
+				"id" : 162,
+				"rate" : 2.4000001
+			},
+			"locktransforms" : false,
+			"model" : null,
+			"name" : "Particle",
+			"origin" : "2568.67969 716.46228 0.00000",
+			"parallaxDepth" : "1.00000 1.00000",
+			"particle" : "particles/workshop/2102493274/presets/snowperspective.json",
+			"scale" : "1.00000 1.00000 1.00000",
+			"visible" : true
+		},
+		{
+			"alignment" : "center",
+			"alpha" : 0.44999999,
+			"angles" : "0.00000 0.00000 0.00000",
+			"brightness" : 1.0,
+			"color" : "1.00000 1.00000 1.00000",
+			"colorBlendMode" : 31,
+			"copybackground" : true,
+			"effects" : 
+			[
+				{
+					"file" : "effects/opacity/effect.json",
+					"id" : 177,
+					"name" : "",
+					"passes" : 
+					[
+						{
+							"constantshadervalues" : 
+							{
+								"alpha" : 1.0
+							},
+							"id" : 178,
+							"textures" : [ null, "masks/opacity_mask_1ca92ec3" ]
+						}
+					],
+					"visible" : true
+				}
+			],
+			"id" : 174,
+			"image" : "models/LensDirt Large.json",
+			"ledsource" : false,
+			"locktransforms" : false,
+			"name" : "LensDirt",
+			"origin" : "1900.00000 1100.00000 0.00000",
+			"parallaxDepth" : "1.00000 1.00000",
+			"perspective" : false,
+			"scale" : "2.00000 2.00000 1.00000",
+			"size" : "1920.00000 1280.00000",
+			"solid" : true,
+			"visible" : 
+			{
+				"user" : "lens",
+				"value" : true
+			}
+		},
+		{
+			"alignment" : "center",
+			"alpha" : 1.0,
+			"brightness" : 1.0,
+			"color" : "1.00000 1.00000 1.00000",
+			"colorBlendMode" : 0,
+			"copybackground" : true,
+			"effects" : 
+			[
+				{
+					"file" : "effects/workshop/2487531853/lens_flare_sun/effect.json",
+					"id" : 287,
+					"name" : "",
+					"passes" : 
+					[
+						{
+							"combos" : 
+							{
+								"BLENDMODE" : 31,
+								"LENS" : 0,
+								"SUN" : 0
+							},
+							"constantshadervalues" : 
+							{
+								"Color" : "0.5137254901960784 0.5137254901960784 1",
+								"Opacity" : 1.35,
+								"Position offset" : "2 1.5",
+								"Scale" : 0.045000002,
+								"Sun Scale" : 12,
+								"angle" : 0,
+								"pointerspeed" : 0.1,
+								"rotationspeed" : 0.1,
+								"speed" : 0,
+								"speed secondary" : 0
+							},
+							"id" : 0,
+							"textures" : [ null, "util/noise" ]
+						}
+					],
+					"visible" : true
+				}
+			],
+			"id" : 284,
+			"image" : "models/util/fullscreenlayer.json",
+			"ledsource" : false,
+			"locktransforms" : false,
+			"name" : "Fullscreen",
+			"parallaxDepth" : "1.00000 1.00000",
+			"perspective" : false,
+			"solid" : true,
+			"visible" : 
+			{
+				"user" : "flare",
+				"value" : false
+			}
+		},
+		{
+			"angles" : "0.00000 0.00000 0.00000",
+			"id" : 228,
+			"locktransforms" : false,
+			"maxtime" : 5.0,
+			"mintime" : 1.0,
+			"muteineditor" : true,
+			"name" : "One Last Kiss (Instrumental).mp3",
+			"origin" : "0.00000 0.00000 0.00000",
+			"parallaxDepth" : "1.00000 1.00000",
+			"playbackmode" : "loop",
+			"scale" : "1.00000 1.00000 1.00000",
+			"sound" : [ "sounds/One Last Kiss (Instrumental).mp3" ],
+			"startsilent" : false,
+			"volume" : 
+			{
+				"user" : "music",
+				"value" : 0.5
+			}
+		}
+	],
+	"version" : 1
+}

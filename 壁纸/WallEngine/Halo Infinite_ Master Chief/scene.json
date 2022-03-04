@@ -1,0 +1,783 @@
+{
+	"camera" : 
+	{
+		"center" : "0.00000 0.00000 -1.00000",
+		"eye" : "0.00000 0.00000 0.00000",
+		"up" : "0.00000 1.00000 0.00000"
+	},
+	"general" : 
+	{
+		"ambientcolor" : "0.30000 0.30000 0.30000",
+		"bloom" : false,
+		"bloomhdrfeather" : 0.10000000149011612,
+		"bloomhdriterations" : 8,
+		"bloomhdrscatter" : 1.6189999580383301,
+		"bloomhdrstrength" : 2.0,
+		"bloomhdrthreshold" : 1.0,
+		"bloomstrength" : 2.0,
+		"bloomthreshold" : 0.64999997615814209,
+		"camerafade" : true,
+		"cameraparallax" : false,
+		"cameraparallaxamount" : 0.5,
+		"cameraparallaxdelay" : 0.10000000149011612,
+		"cameraparallaxmouseinfluence" : 0.5,
+		"camerapreview" : true,
+		"camerashake" : false,
+		"camerashakeamplitude" : 0.5,
+		"camerashakeroughness" : 1.0,
+		"camerashakespeed" : 3.0,
+		"clearcolor" : "0.70000 0.70000 0.70000",
+		"clearenabled" : true,
+		"farz" : 10000.0,
+		"fov" : 50.0,
+		"hdr" : false,
+		"nearz" : 0.0099999997764825821,
+		"orthogonalprojection" : 
+		{
+			"height" : 1440,
+			"width" : 2560
+		},
+		"skylightcolor" : "0.30000 0.30000 0.30000",
+		"zoom" : 1.0
+	},
+	"objects" : 
+	[
+		{
+			"alignment" : "center",
+			"alpha" : 1.0,
+			"angles" : "0.00000 0.00000 0.00000",
+			"brightness" : 1.0,
+			"color" : "1.00000 1.00000 1.00000",
+			"colorBlendMode" : 0,
+			"copybackground" : true,
+			"effects" : 
+			[
+				{
+					"file" : "effects/opacity/effect.json",
+					"id" : 363,
+					"name" : "",
+					"passes" : 
+					[
+						{
+							"constantshadervalues" : 
+							{
+								"alpha" : 1.0
+							},
+							"id" : 364,
+							"textures" : [ null, "masks/opacity_mask_a2dfa4f6" ]
+						}
+					],
+					"visible" : true
+				},
+				{
+					"file" : "effects/waterripple/effect.json",
+					"id" : 1141,
+					"name" : "background ripple",
+					"passes" : 
+					[
+						{
+							"constantshadervalues" : 
+							{
+								"animationspeed" : 0.070000000000000007,
+								"ratio" : 1,
+								"ripplestrength" : 0.10000000000000001,
+								"scale" : 1.3500000000000001,
+								"scrolldirection" : -3.1415926535897931,
+								"scrollspeed" : 0
+							},
+							"id" : 0,
+							"textures" : [ null, "masks/waterripple_mask_fc52e098", "effects/waterripplenormal" ]
+						}
+					],
+					"visible" : 
+					{
+						"user" : "backgorundripple",
+						"value" : true
+					}
+				}
+			],
+			"id" : 20,
+			"image" : "models/halo infinite.json",
+			"ledsource" : false,
+			"locktransforms" : true,
+			"name" : "logo fix",
+			"origin" : "1268.75525 447.31671 0.00000",
+			"parallaxDepth" : "1.00000 1.00000",
+			"perspective" : false,
+			"scale" : "1.00000 1.00000 1.00000",
+			"size" : "2560.00000 1440.00000",
+			"solid" : true,
+			"visible" : true
+		},
+		{
+			"alignment" : "center",
+			"alpha" : 1.0,
+			"angles" : "0.00000 0.00000 0.00000",
+			"brightness" : 1.0,
+			"color" : "1.00000 1.00000 1.00000",
+			"colorBlendMode" : 0,
+			"copybackground" : true,
+			"effects" : 
+			[
+				{
+					"file" : "effects/opacity/effect.json",
+					"id" : 22,
+					"name" : "",
+					"passes" : 
+					[
+						{
+							"constantshadervalues" : 
+							{
+								"alpha" : 1.0
+							},
+							"id" : 23,
+							"textures" : [ null, "masks/opacity_mask_8d525ec2" ]
+						}
+					],
+					"visible" : true
+				},
+				{
+					"file" : "effects/waterripple/effect.json",
+					"id" : 1510,
+					"name" : "background ripple",
+					"passes" : 
+					[
+						{
+							"constantshadervalues" : 
+							{
+								"animationspeed" : 0.070000000000000007,
+								"ratio" : 1,
+								"ripplestrength" : 0.10000000000000001,
+								"scale" : 1.3500000000000001,
+								"scrolldirection" : -3.1415926535897931,
+								"scrollspeed" : 0.0
+							},
+							"id" : 1511,
+							"textures" : [ null, "masks/waterripple_mask_fc52e098", "effects/waterripplenormal" ]
+						}
+					],
+					"visible" : 
+					{
+						"user" : "backgorundripple",
+						"value" : true
+					}
+				}
+			],
+			"id" : 14,
+			"image" : "models/halo infinite.json",
+			"ledsource" : false,
+			"locktransforms" : true,
+			"name" : "halo infinite backgorund",
+			"origin" : "1280.00000 720.00000 0.00000",
+			"parallaxDepth" : "1.00000 1.00000",
+			"perspective" : false,
+			"scale" : "1.00000 1.00000 1.00000",
+			"size" : "2560.00000 1440.00000",
+			"solid" : true,
+			"visible" : true
+		},
+		{
+			"angles" : "0.00000 -0.00000 -2.89548",
+			"id" : 794,
+			"instanceoverride" : 
+			{
+				"alpha" : 0.73000001907348633,
+				"count" : 3.0,
+				"id" : 796,
+				"lifetime" : 2.0,
+				"size" : 2.8299999237060547,
+				"speed" : 0.5
+			},
+			"locktransforms" : true,
+			"name" : "Shooting star",
+			"origin" : "2545.38794 446.06213 0.00000",
+			"parallaxDepth" : "1.00000 1.00000",
+			"particle" : "particles/presets/shootingstar.json",
+			"scale" : "2.58733 2.58733 2.58733",
+			"visible" : 
+			{
+				"user" : "shootingstars",
+				"value" : true
+			}
+		},
+		{
+			"angles" : "0.00000 -0.00000 -2.79239",
+			"id" : 1760,
+			"instanceoverride" : 
+			{
+				"alpha" : 0.73000001907348633,
+				"count" : 3.0,
+				"id" : 1762,
+				"lifetime" : 2.0,
+				"size" : 2.8299999237060547,
+				"speed" : 0.5
+			},
+			"locktransforms" : true,
+			"name" : "Shooting star",
+			"origin" : "1510.49072 1199.18018 0.00000",
+			"parallaxDepth" : "1.00000 1.00000",
+			"particle" : "particles/presets/shootingstar.json",
+			"scale" : "2.58733 2.58733 2.58733",
+			"visible" : 
+			{
+				"user" : "shootingstars",
+				"value" : true
+			}
+		},
+		{
+			"angles" : "-0.00000 -0.00000 -0.41602",
+			"id" : 147,
+			"instanceoverride" : 
+			{
+				"colorn" : "0.62353 0.55294 0.48627",
+				"id" : 148
+			},
+			"locktransforms" : true,
+			"name" : "Ash",
+			"origin" : "1271.85437 928.66895 0.00000",
+			"parallaxDepth" : "1.00000 1.00000",
+			"particle" : "particles/presets/ash.json",
+			"scale" : "1.59829 1.65427 1.00000",
+			"visible" : 
+			{
+				"user" : "fallingash",
+				"value" : true
+			}
+		},
+		{
+			"alignment" : "center",
+			"alpha" : 1.0,
+			"angles" : "0.00000 0.00000 0.00000",
+			"brightness" : 1.0,
+			"color" : "1.00000 1.00000 1.00000",
+			"colorBlendMode" : 0,
+			"copybackground" : true,
+			"effects" : 
+			[
+				{
+					"file" : "effects/shine/effect.json",
+					"id" : 1051,
+					"name" : "visor 1",
+					"passes" : 
+					[
+						{
+							"constantshadervalues" : 
+							{
+								"noiseamount" : 1,
+								"noisescale" : 5.3600000000000003,
+								"noisespeed" : 0.070000000000000007,
+								"raythreshold" : 0.52000000000000002
+							},
+							"id" : 1052,
+							"textures" : [ null, "masks/shine_downsample2_mask_7e26e17f", "util/clouds_256" ]
+						},
+						{
+							"constantshadervalues" : 
+							{
+								"color" : "0.7803921568627451 0.5019607843137255 0",
+								"direction" : -2.2555584081416598,
+								"rayintensity" : 0.31,
+								"raylength" : 0.20000000000000001,
+								"speed" : 0.0
+							},
+							"id" : 1053
+						},
+						{
+							"constantshadervalues" : 
+							{
+								"scale" : "1 1"
+							},
+							"id" : 1054
+						},
+						{
+							"combos" : 
+							{
+								"VERTICAL" : 1
+							},
+							"constantshadervalues" : 
+							{
+								"scale" : "1 1"
+							},
+							"id" : 1055
+						},
+						{
+							"id" : 1056,
+							"textures" : [ null, "_rt_imageLayerComposite_98_b" ]
+						}
+					],
+					"visible" : 
+					{
+						"user" : "shineonvisor",
+						"value" : true
+					}
+				},
+				{
+					"file" : "effects/shine/effect.json",
+					"id" : 1403,
+					"name" : "visor 2",
+					"passes" : 
+					[
+						{
+							"constantshadervalues" : 
+							{
+								"noiseamount" : 1,
+								"noisescale" : 5.3600000000000003,
+								"noisespeed" : 0.029999999999999999,
+								"raythreshold" : 0.13
+							},
+							"id" : 1404,
+							"textures" : [ null, "masks/shine_downsample2_mask_a581e8db", "util/clouds_256" ]
+						},
+						{
+							"constantshadervalues" : 
+							{
+								"color" : "0.615686274509804 0.4 0",
+								"direction" : 2.0541043236368299,
+								"rayintensity" : 0.81999999999999995,
+								"raylength" : 0.089999999999999997,
+								"speed" : 0.0
+							},
+							"id" : 1405
+						},
+						{
+							"constantshadervalues" : 
+							{
+								"scale" : "1 1"
+							},
+							"id" : 1406
+						},
+						{
+							"combos" : 
+							{
+								"VERTICAL" : 1
+							},
+							"constantshadervalues" : 
+							{
+								"scale" : "1 1"
+							},
+							"id" : 1407
+						},
+						{
+							"id" : 1408,
+							"textures" : [ null, "_rt_imageLayerComposite_98_a" ]
+						}
+					],
+					"visible" : 
+					{
+						"user" : "shineonvisor",
+						"value" : true
+					}
+				},
+				{
+					"file" : "effects/shine/effect.json",
+					"id" : 2191,
+					"name" : "armor shine 1",
+					"passes" : 
+					[
+						{
+							"constantshadervalues" : 
+							{
+								"noiseamount" : 0.5,
+								"noisescale" : 10,
+								"noisespeed" : 0.02,
+								"raythreshold" : 0.85999999999999999
+							},
+							"id" : 2192,
+							"textures" : [ null, "masks/shine_downsample2_mask_aadbeb0c", "util/clouds_256" ]
+						},
+						{
+							"constantshadervalues" : 
+							{
+								"color" : "1 1 1",
+								"direction" : 1.9111782654368037,
+								"rayintensity" : 1.1299999999999999,
+								"raylength" : 0.23000000000000001,
+								"speed" : 0.14999999999999999
+							},
+							"id" : 2193
+						},
+						{
+							"constantshadervalues" : 
+							{
+								"scale" : "1 1"
+							},
+							"id" : 2194
+						},
+						{
+							"combos" : 
+							{
+								"VERTICAL" : 1
+							},
+							"constantshadervalues" : 
+							{
+								"scale" : "1 1"
+							},
+							"id" : 2195
+						},
+						{
+							"id" : 2196,
+							"textures" : [ null, "_rt_imageLayerComposite_98_b" ]
+						}
+					],
+					"visible" : 
+					{
+						"user" : "shineonarmor",
+						"value" : true
+					}
+				},
+				{
+					"file" : "effects/shine/effect.json",
+					"id" : 3531,
+					"name" : "armor shine 2",
+					"passes" : 
+					[
+						{
+							"constantshadervalues" : 
+							{
+								"noiseamount" : 0.40000000000000002,
+								"noisescale" : 10,
+								"noisespeed" : 0.14999999999999999,
+								"raythreshold" : 0.17000000000000001
+							},
+							"id" : 3532,
+							"textures" : [ null, "masks/shine_downsample2_mask_e1e8d9f4", "util/clouds_256" ]
+						},
+						{
+							"constantshadervalues" : 
+							{
+								"color" : "1 1 1",
+								"direction" : 0.0,
+								"rayintensity" : 0.23999999999999999,
+								"raylength" : 0.26000000000000001,
+								"speed" : 0.14999999999999999
+							},
+							"id" : 3533
+						},
+						{
+							"constantshadervalues" : 
+							{
+								"scale" : "1 1"
+							},
+							"id" : 3534
+						},
+						{
+							"combos" : 
+							{
+								"VERTICAL" : 1
+							},
+							"constantshadervalues" : 
+							{
+								"scale" : "1 1"
+							},
+							"id" : 3535
+						},
+						{
+							"id" : 3536,
+							"textures" : [ null, "_rt_imageLayerComposite_98_a" ]
+						}
+					],
+					"visible" : 
+					{
+						"user" : "shineonarmor",
+						"value" : true
+					}
+				},
+				{
+					"file" : "effects/shake/effect.json",
+					"id" : 145,
+					"name" : "breathing 1",
+					"passes" : 
+					[
+						{
+							"constantshadervalues" : 
+							{
+								"bounds" : "0 1",
+								"friction" : "1 1",
+								"speed" : 1,
+								"strength" : 0.070000000000000007
+							},
+							"id" : 146,
+							"textures" : 
+							[
+								null,
+								"masks/shake_mask_e8c7d789",
+								"util/white",
+								"masks/shake_mask_df9c0a91"
+							]
+						}
+					],
+					"visible" : 
+					{
+						"user" : "chiefbreathing",
+						"value" : true
+					}
+				},
+				{
+					"file" : "effects/shake/effect.json",
+					"id" : 224,
+					"name" : "brewathing arm",
+					"passes" : 
+					[
+						{
+							"constantshadervalues" : 
+							{
+								"bounds" : "0 1",
+								"friction" : "1 1",
+								"speed" : 1.0,
+								"strength" : 0.040000000000000001
+							},
+							"id" : 225,
+							"textures" : 
+							[
+								null,
+								"masks/shake_mask_13facbfc",
+								"util/white",
+								"masks/shake_mask_ef5516a4"
+							]
+						}
+					],
+					"visible" : 
+					{
+						"user" : "chiefbreathing",
+						"value" : true
+					}
+				},
+				{
+					"file" : "effects/godrays/effect.json",
+					"id" : 10393,
+					"name" : "Visor 3",
+					"passes" : 
+					[
+						{
+							"constantshadervalues" : 
+							{
+								"noiseamount" : 0.39000000000000001,
+								"noisescale" : 3.0,
+								"noisesmoothness" : 0.5,
+								"noisespeed" : 0.059999999999999998,
+								"raythreshold" : 0.5
+							},
+							"id" : 10394,
+							"textures" : [ null, "masks/godrays_downsample2_mask_ed391a7c", "util/clouds_256" ]
+						},
+						{
+							"constantshadervalues" : 
+							{
+								"center" : "0.5 0.5",
+								"color" : "1 0.6470588235294118 0",
+								"rayintensity" : 1,
+								"raylength" : 0.5
+							},
+							"id" : 10395
+						},
+						{
+							"constantshadervalues" : 
+							{
+								"blurscale" : "1 1"
+							},
+							"id" : 10396
+						},
+						{
+							"combos" : 
+							{
+								"VERTICAL" : 1
+							},
+							"constantshadervalues" : 
+							{
+								"blurscale" : "1 1"
+							},
+							"id" : 10397
+						},
+						{
+							"id" : 10398,
+							"textures" : [ null, "_rt_imageLayerComposite_98_b" ]
+						}
+					],
+					"visible" : 
+					{
+						"user" : "shineonvisor",
+						"value" : true
+					}
+				},
+				{
+					"file" : "effects/opacity/effect.json",
+					"id" : 100,
+					"name" : "",
+					"passes" : 
+					[
+						{
+							"constantshadervalues" : 
+							{
+								"alpha" : 1.0
+							},
+							"id" : 101,
+							"textures" : [ null, "masks/opacity_mask_8ea9784f" ]
+						}
+					],
+					"visible" : true
+				}
+			],
+			"id" : 98,
+			"image" : "models/halo infinite.json",
+			"ledsource" : false,
+			"locktransforms" : true,
+			"name" : "Chief",
+			"origin" : "1280.00000 720.00000 0.00000",
+			"parallaxDepth" : "1.00000 1.00000",
+			"perspective" : false,
+			"scale" : "1.00000 1.00000 1.00000",
+			"size" : "2560.00000 1440.00000",
+			"solid" : true,
+			"visible" : true
+		},
+		{
+			"angles" : "0.00000 0.00000 0.00000",
+			"id" : 8704,
+			"locktransforms" : true,
+			"maxtime" : 5.0,
+			"mintime" : 1.0,
+			"muteineditor" : true,
+			"name" : "Halo Infinite Official Soundtrack Through the Trees.mp3",
+			"origin" : "0.00000 0.00000 0.00000",
+			"parallaxDepth" : "1.00000 1.00000",
+			"playbackmode" : "loop",
+			"scale" : "1.00000 1.00000 1.00000",
+			"sound" : [ "sounds/Halo Infinite Official Soundtrack Through the Trees.mp3" ],
+			"startsilent" : false,
+			"volume" : 
+			{
+				"user" : "throughthetreesvolume",
+				"value" : 0.0
+			}
+		},
+		{
+			"angles" : "0.00000 0.00000 0.00000",
+			"id" : 9153,
+			"locktransforms" : true,
+			"maxtime" : 5.0,
+			"mintime" : 1.0,
+			"muteineditor" : true,
+			"name" : "Finish the Fight.mp3",
+			"origin" : "0.00000 0.00000 0.00000",
+			"parallaxDepth" : "1.00000 1.00000",
+			"playbackmode" : "loop",
+			"scale" : "1.00000 1.00000 1.00000",
+			"sound" : [ "sounds/Finish the Fight.mp3" ],
+			"startsilent" : false,
+			"volume" : 
+			{
+				"user" : "finishthefightvolume1",
+				"value" : 0.5
+			}
+		},
+		{
+			"angles" : "0.00000 0.00000 0.00000",
+			"id" : 9410,
+			"locktransforms" : true,
+			"maxtime" : 5.0,
+			"mintime" : 1.0,
+			"muteineditor" : true,
+			"name" : "Halo 2 Soundtrack - Halo Theme (Mjolnir Mix).mp3",
+			"origin" : "0.00000 0.00000 0.00000",
+			"parallaxDepth" : "1.00000 1.00000",
+			"playbackmode" : "loop",
+			"scale" : "1.00000 1.00000 1.00000",
+			"sound" : [ "sounds/Halo 2 Soundtrack - Halo Theme (Mjolnir Mix).mp3" ],
+			"startsilent" : false,
+			"volume" : 
+			{
+				"user" : "finishthefightvolume",
+				"value" : 0.0
+			}
+		},
+		{
+			"angles" : "0.00000 0.00000 0.00000",
+			"id" : 122,
+			"locktransforms" : true,
+			"maxtime" : 5.0,
+			"mintime" : 1.0,
+			"muteineditor" : true,
+			"name" : "Halo 4 OST - 117.mp3",
+			"origin" : "0.00000 0.00000 0.00000",
+			"parallaxDepth" : "1.00000 1.00000",
+			"playbackmode" : "loop",
+			"scale" : "1.00000 1.00000 1.00000",
+			"sound" : [ "sounds/Halo 4 OST - 117.mp3" ],
+			"startsilent" : false,
+			"volume" : 
+			{
+				"user" : "halo4117volume",
+				"value" : 0.0
+			}
+		},
+		{
+			"angles" : "0.00000 0.00000 0.00000",
+			"id" : 150,
+			"locktransforms" : true,
+			"maxtime" : 5.0,
+			"mintime" : 1.0,
+			"muteineditor" : false,
+			"name" : "Halo Infinite Official Soundtrack Reverie.mp3",
+			"origin" : "0.00000 0.00000 0.00000",
+			"parallaxDepth" : "1.00000 1.00000",
+			"playbackmode" : "loop",
+			"scale" : "1.00000 1.00000 1.00000",
+			"sound" : [ "sounds/Halo Infinite Official Soundtrack Reverie.mp3" ],
+			"startsilent" : false,
+			"volume" : 
+			{
+				"user" : "reverievolume",
+				"value" : 0.0
+			}
+		},
+		{
+			"angles" : "0.00000 0.00000 0.00000",
+			"id" : 493,
+			"locktransforms" : true,
+			"maxtime" : 5.0,
+			"mintime" : 1.0,
+			"muteineditor" : true,
+			"name" : "Halo InfiniteOfficial SoundtrackSet a Fire in Your Heart.mp3",
+			"origin" : "0.00000 0.00000 0.00000",
+			"parallaxDepth" : "1.00000 1.00000",
+			"playbackmode" : "loop",
+			"scale" : "1.00000 1.00000 1.00000",
+			"sound" : [ "sounds/Halo InfiniteOfficial SoundtrackSet a Fire in Your Heart.mp3" ],
+			"startsilent" : false,
+			"volume" : 
+			{
+				"user" : "setafireinyourheartvolume",
+				"value" : 0.0
+			}
+		},
+		{
+			"angles" : "0.00000 0.00000 0.00000",
+			"id" : 479,
+			"locktransforms" : true,
+			"maxtime" : 5.0,
+			"mintime" : 1.0,
+			"muteineditor" : true,
+			"name" : "Halo Infinite Official Soundtrack Through the Trees.mp3",
+			"origin" : "0.00000 0.00000 0.00000",
+			"parallaxDepth" : "1.00000 1.00000",
+			"playbackmode" : "random",
+			"scale" : "1.00000 1.00000 1.00000",
+			"sound" : 
+			[
+				"sounds/Halo Infinite Official Soundtrack Through the Trees.mp3",
+				"sounds/Finish the Fight.mp3",
+				"sounds/Halo InfiniteOfficial SoundtrackSet a Fire in Your Heart.mp3",
+				"sounds/Halo Infinite Official Soundtrack Reverie.mp3",
+				"sounds/Halo 2 Soundtrack - Halo Theme (Mjolnir Mix).mp3",
+				"sounds/Halo 4 OST - 117.mp3"
+			],
+			"startsilent" : false,
+			"volume" : 
+			{
+				"user" : "cyclesongsrandomlyonoff",
+				"value" : 0.0
+			}
+		}
+	],
+	"version" : 1
+}

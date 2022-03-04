@@ -1,0 +1,20 @@
+{
+	"passes" : 
+	[
+		{
+			"blending" : "translucent",
+			"combos" : 
+			{
+				"VERSION" : 2
+			},
+			"cullmode" : "nocull",
+			"depthtest" : "disabled",
+			"depthwrite" : "disabled",
+			"shader" : "genericimage2",
+			"textures" : 
+			[
+				"肉骨茶 个性动漫美女 骨汤屋 二次元美女 4k动漫壁纸_彼岸图网"
+			]
+		}
+	]
+}

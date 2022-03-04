@@ -1,0 +1,396 @@
+{
+	"camera" : 
+	{
+		"center" : "52.36185 -61.66947 0.00000",
+		"eye" : "52.36185 -61.66947 1.00000",
+		"up" : "0.00000 1.00000 0.00000"
+	},
+	"general" : 
+	{
+		"ambientcolor" : "0.30000 0.30000 0.30000",
+		"bloom" : false,
+		"bloomhdrfeather" : 0.10000000149011612,
+		"bloomhdrscatter" : 1.6189999580383301,
+		"bloomhdrstrength" : 2.0,
+		"bloomhdrthreshold" : 1.0,
+		"bloomstrength" : 2.0,
+		"bloomthreshold" : 0.64999997615814209,
+		"camerafade" : true,
+		"cameraparallax" : false,
+		"cameraparallaxamount" : 0.5,
+		"cameraparallaxdelay" : 0.10000000149011612,
+		"cameraparallaxmouseinfluence" : 0.5,
+		"camerapreview" : true,
+		"camerashake" : false,
+		"camerashakeamplitude" : 0.5,
+		"camerashakeroughness" : 1.0,
+		"camerashakespeed" : 3.0,
+		"clearcolor" : "0.70000 0.70000 0.70000",
+		"clearenabled" : true,
+		"farz" : 10000.0,
+		"fov" : 50.0,
+		"hdr" : false,
+		"nearz" : 0.0099999997764825821,
+		"orthogonalprojection" : 
+		{
+			"height" : 1440,
+			"width" : 2560
+		},
+		"skylightcolor" : "0.30000 0.30000 0.30000",
+		"zoom" : 1.0
+	},
+	"objects" : 
+	[
+		{
+			"alignment" : "center",
+			"alpha" : 1.0,
+			"angles" : "0.00000 0.00000 0.00000",
+			"brightness" : 1.0,
+			"color" : "1.00000 1.00000 1.00000",
+			"colorBlendMode" : 0,
+			"copybackground" : true,
+			"effects" : 
+			[
+				{
+					"file" : "effects/shine/effect.json",
+					"id" : 197,
+					"name" : "",
+					"passes" : 
+					[
+						{
+							"constantshadervalues" : 
+							{
+								"noiseamount" : 0.94999999999999996,
+								"noisescale" : 7.1900000000000004,
+								"noisespeed" : 0.059999999999999998,
+								"raythreshold" : 0.33000000000000002
+							},
+							"id" : 198,
+							"textures" : 
+							[
+								null,
+								"masks/shine_downsample2_mask_73d88162a6b6b89ad089458ec3ab881bc60c1a4a",
+								"util/clouds_256"
+							]
+						},
+						{
+							"constantshadervalues" : 
+							{
+								"color" : "1 0.6196078431372549 0.10980392156862745",
+								"rayintensity" : 0.80000000000000004,
+								"raylength" : 0.059999999999999998
+							},
+							"id" : 202
+						},
+						{
+							"id" : 203
+						},
+						{
+							"combos" : 
+							{
+								"VERTICAL" : 1
+							},
+							"id" : 204
+						},
+						{
+							"id" : 205,
+							"textures" : [ null, "_rt_imageLayerComposite_18_b" ]
+						}
+					],
+					"visible" : true
+				},
+				{
+					"file" : "effects/waterwaves/effect.json",
+					"id" : 220,
+					"name" : "",
+					"passes" : 
+					[
+						{
+							"constantshadervalues" : 
+							{
+								"direction" : 2.105751400580993,
+								"scale" : 19.809999999999999,
+								"speed" : 4.71,
+								"strength" : 0.050000000000000003
+							},
+							"id" : 221,
+							"textures" : 
+							[
+								null,
+								"masks/waterwaves_mask_96e2ccf8a0dd4490652d9b39c6a2a96586136ed4"
+							]
+						}
+					],
+					"visible" : true
+				},
+				{
+					"file" : "effects/waterwaves/effect.json",
+					"id" : 229,
+					"name" : "",
+					"passes" : 
+					[
+						{
+							"constantshadervalues" : 
+							{
+								"direction" : 2.819842099193151,
+								"perspective" : 0.02,
+								"scale" : 44.560000000000002,
+								"strength" : 0.029999999999999999
+							},
+							"id" : 230,
+							"textures" : 
+							[
+								null,
+								"masks/waterwaves_mask_24b97a2df275609efdaa269e81b51e5c6c54e533"
+							]
+						}
+					],
+					"visible" : true
+				},
+				{
+					"file" : "effects/foliagesway/effect.json",
+					"id" : 251,
+					"name" : "",
+					"passes" : 
+					[
+						{
+							"constantshadervalues" : 
+							{
+								"phase" : 1.21,
+								"power" : 1.46,
+								"ratio" : 0.97999999999999998,
+								"scale" : 0.080000000000000002,
+								"scrolldirection" : 1.0204103791181058,
+								"speeduv" : 5.1100000000000003,
+								"strength" : 0.29999999999999999
+							},
+							"id" : 252,
+							"textures" : 
+							[
+								null,
+								"masks/foliagesway_mask_e209a25df10399335196c22771068c04059e8f2d",
+								"util/noise"
+							]
+						}
+					],
+					"visible" : true
+				},
+				{
+					"file" : "effects/waterripple/effect.json",
+					"id" : 280,
+					"name" : "",
+					"passes" : 
+					[
+						{
+							"constantshadervalues" : 
+							{
+								"animationspeed" : 0.10000000000000001,
+								"ratio" : 1.1399999999999999,
+								"ripplestrength" : 0.080000000000000002,
+								"scale" : 0.83999999999999997,
+								"scrollspeed" : 0.089999999999999997
+							},
+							"id" : 281,
+							"textures" : 
+							[
+								null,
+								"masks/waterripple_mask_fdd980e1a2acf566575fb3e2615eaa2126b03e65",
+								"effects/waterripplenormal"
+							]
+						}
+					],
+					"visible" : true
+				},
+				{
+					"file" : "effects/shake/effect.json",
+					"id" : 303,
+					"name" : "",
+					"passes" : 
+					[
+						{
+							"constantshadervalues" : 
+							{
+								"speed" : 3.9100000000000001,
+								"strength" : 0.059999999999999998
+							},
+							"id" : 304,
+							"textures" : 
+							[
+								null,
+								"masks/shake_mask_8c038544686739952211e73374b64a089ec21731",
+								"masks/shake_mask_4900577686604aa99235fa7c5c9986e8f10b443b"
+							]
+						}
+					],
+					"visible" : true
+				}
+			],
+			"id" : 18,
+			"image" : "models/wallhaven-5779j8_2560x1440.json",
+			"ledsource" : false,
+			"locktransforms" : true,
+			"name" : "wallhaven-5779j8_2560x1440",
+			"origin" : "1280.00000 720.00000 0.00000",
+			"parallaxDepth" : "1.00000 1.00000",
+			"perspective" : false,
+			"scale" : "1.00000 1.00000 1.00000",
+			"size" : "2560.00000 1440.00000",
+			"solid" : true,
+			"visible" : true
+		},
+		{
+			"angles" : "0.00000 -0.00000 0.12386",
+			"id" : 26,
+			"instanceoverride" : 
+			{
+				"alpha" : 0.70999997854232788,
+				"colorn" : "1.00000 0.64314 0.30980",
+				"count" : 0.62999999523162842,
+				"id" : 27,
+				"rate" : 0.57999998331069946,
+				"size" : 0.34999999403953552,
+				"speed" : 0.64999997615814209
+			},
+			"locktransforms" : false,
+			"name" : "Ember",
+			"origin" : "562.70294 -7.01227 0.00000",
+			"parallaxDepth" : "1.00000 1.00000",
+			"particle" : "particles/presets/ember.json",
+			"scale" : "1.21684 2.09433 1.75540",
+			"visible" : 
+			{
+				"user" : "enableember",
+				"value" : true
+			}
+		},
+		{
+			"angles" : "0.00000 -0.00000 0.12386",
+			"id" : 53,
+			"instanceoverride" : 
+			{
+				"alpha" : 0.70999997854232788,
+				"colorn" : "1.00000 0.64314 0.30980",
+				"count" : 0.62999999523162842,
+				"id" : null,
+				"rate" : 0.57999998331069946,
+				"size" : 0.34999999403953552,
+				"speed" : 0.64999997615814209
+			},
+			"locktransforms" : false,
+			"name" : "Ember",
+			"origin" : "2033.01367 -30.23199 0.00000",
+			"parallaxDepth" : "1.00000 1.00000",
+			"particle" : "particles/presets/ember.json",
+			"scale" : "1.21684 2.09433 1.75540",
+			"visible" : 
+			{
+				"user" : "enableember",
+				"value" : true
+			}
+		},
+		{
+			"angles" : "0.00000 0.00000 0.00000",
+			"id" : 164,
+			"instanceoverride" : 
+			{
+				"alpha" : 0.64999997615814209,
+				"colorn" : "0.65490 0.61569 0.61569",
+				"id" : 165,
+				"rate" : 0.87000000476837158,
+				"speed" : 0.77999997138977051
+			},
+			"locktransforms" : false,
+			"name" : "Fog 1",
+			"origin" : "2010.57031 1071.40979 0.00000",
+			"parallaxDepth" : "1.00000 1.00000",
+			"particle" : "particles/presets/fog1.json",
+			"scale" : "0.85300 0.58665 0.85300",
+			"visible" : true
+		},
+		{
+			"angles" : "0.00000 -0.00000 0.10654",
+			"id" : 172,
+			"instanceoverride" : 
+			{
+				"alpha" : 0.69999998807907104,
+				"colorn" : "0.65490 0.61569 0.61569",
+				"id" : 174,
+				"rate" : 0.87000000476837158,
+				"speed" : 0.77999997138977051
+			},
+			"locktransforms" : false,
+			"name" : "Fog 1",
+			"origin" : "1198.73669 918.37701 0.00000",
+			"parallaxDepth" : "1.00000 1.00000",
+			"particle" : "particles/presets/fog1.json",
+			"scale" : "0.54793 0.37684 0.54793",
+			"visible" : true
+		},
+		{
+			"angles" : "0.00000 -0.00000 0.10654",
+			"id" : 178,
+			"instanceoverride" : 
+			{
+				"alpha" : 0.6600000262260437,
+				"colorn" : "0.65490 0.61569 0.61569",
+				"id" : 180,
+				"rate" : 0.87000000476837158,
+				"speed" : 0.77999997138977051
+			},
+			"locktransforms" : false,
+			"name" : "Fog 1",
+			"origin" : "435.45807 1044.49304 0.00000",
+			"parallaxDepth" : "1.00000 1.00000",
+			"particle" : "particles/presets/fog1.json",
+			"scale" : "0.42630 0.40948 0.59539",
+			"visible" : true
+		},
+		{
+			"angles" : "0.00000 -0.00000 0.29156",
+			"id" : 184,
+			"instanceoverride" : 
+			{
+				"alpha" : 0.44999998807907104,
+				"count" : 0.95999997854232788,
+				"id" : 185,
+				"rate" : 0.79000002145767212,
+				"size" : 0.79000002145767212,
+				"speed" : 1.0199999809265137
+			},
+			"locktransforms" : false,
+			"name" : "Rain perspective",
+			"origin" : "1236.66797 765.51337 0.00000",
+			"parallaxDepth" : "1.00000 1.00000",
+			"particle" : "particles/presets/rainperspective.json",
+			"scale" : "2.99725 1.26151 1.26151",
+			"visible" : 
+			{
+				"user" : "enablerain",
+				"value" : true
+			}
+		},
+		{
+			"angles" : "0.00000 0.00000 0.00000",
+			"id" : 192,
+			"instanceoverride" : 
+			{
+				"alpha" : 0.76999998092651367,
+				"id" : 193,
+				"rate" : 1.0499999523162842,
+				"size" : 0.74000000953674316
+			},
+			"locktransforms" : false,
+			"name" : "Snow perspective",
+			"origin" : "1274.66553 795.90674 0.00000",
+			"parallaxDepth" : "1.00000 1.00000",
+			"particle" : "particles/presets/snowperspective.json",
+			"scale" : "1.18800 1.18800 1.18800",
+			"visible" : 
+			{
+				"user" : "enablesnow",
+				"value" : false
+			}
+		}
+	],
+	"version" : 1
+}

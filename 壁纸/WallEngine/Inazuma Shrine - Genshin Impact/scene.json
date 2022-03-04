@@ -1,0 +1,995 @@
+{
+	"camera" : 
+	{
+		"center" : "-23.71701 180.23138 -1.00000",
+		"eye" : "-23.71701 180.23138 0.00000",
+		"up" : "0.00000 1.00000 0.00000"
+	},
+	"general" : 
+	{
+		"ambientcolor" : "0.30000 0.30000 0.30000",
+		"bloom" : false,
+		"bloomhdrfeather" : 0.10000000149011612,
+		"bloomhdrscatter" : 1.6189999580383301,
+		"bloomhdrstrength" : 2.0,
+		"bloomhdrthreshold" : 1.0,
+		"bloomstrength" : 2.0,
+		"bloomthreshold" : 0.64999997615814209,
+		"camerafade" : true,
+		"cameraparallax" : false,
+		"cameraparallaxamount" : 0.5,
+		"cameraparallaxdelay" : 0.10000000149011612,
+		"cameraparallaxmouseinfluence" : 0.5,
+		"camerapreview" : true,
+		"camerashake" : false,
+		"camerashakeamplitude" : 0.5,
+		"camerashakeroughness" : 1.0,
+		"camerashakespeed" : 3.0,
+		"clearcolor" : "0.70000 0.70000 0.70000",
+		"clearenabled" : true,
+		"farz" : 10000.0,
+		"fov" : 50.0,
+		"hdr" : false,
+		"nearz" : 0.0099999997764825821,
+		"orthogonalprojection" : 
+		{
+			"height" : 1440,
+			"width" : 2560
+		},
+		"skylightcolor" : "0.30000 0.30000 0.30000",
+		"zoom" : 1.0
+	},
+	"objects" : 
+	[
+		{
+			"alignment" : "center",
+			"alpha" : 1.0,
+			"angles" : "0.00000 0.00000 0.00000",
+			"brightness" : 1.0,
+			"color" : "1.00000 1.00000 1.00000",
+			"colorBlendMode" : 0,
+			"copybackground" : true,
+			"effects" : 
+			[
+				{
+					"file" : "effects/shake/effect.json",
+					"id" : 617,
+					"name" : "",
+					"passes" : 
+					[
+						{
+							"id" : 618,
+							"textures" : 
+							[
+								null,
+								"masks/shake_mask_58d65906b6fa5c1cd6b42cf08d1b7a41605f9cbb",
+								"util/white"
+							]
+						}
+					],
+					"visible" : true
+				},
+				{
+					"file" : "effects/pulse/effect.json",
+					"id" : 12167,
+					"name" : "",
+					"passes" : 
+					[
+						{
+							"constantshadervalues" : 
+							{
+								"amount" : 0.089999999999999997,
+								"noiseamount" : 0.28000000000000003,
+								"power" : 0.26000000000000001
+							},
+							"id" : 12168,
+							"textures" : 
+							[
+								null,
+								"util/noise",
+								"masks/pulse_mask_6d99212e80efaf5203989d231829da04e62c5e7a"
+							]
+						}
+					],
+					"visible" : false
+				},
+				{
+					"file" : "effects/shine/effect.json",
+					"id" : 12224,
+					"name" : "",
+					"passes" : 
+					[
+						{
+							"constantshadervalues" : 
+							{
+								"noiseamount" : 0.42999999999999999,
+								"raythreshold" : 0.79000000000000004
+							},
+							"id" : 12225,
+							"textures" : 
+							[
+								null,
+								"masks/shine_downsample2_mask_6cd517ff4a141f57a68aab9c2738993df4e6d0a2",
+								"util/clouds_256"
+							]
+						},
+						{
+							"constantshadervalues" : 
+							{
+								"color" : "0 1 1",
+								"direction" : -3.1415926535897931,
+								"rayintensity" : 0.19,
+								"raylength" : 0.22
+							},
+							"id" : 12226
+						},
+						{
+							"id" : 12227
+						},
+						{
+							"combos" : 
+							{
+								"VERTICAL" : 1
+							},
+							"id" : 12228
+						},
+						{
+							"id" : 12229,
+							"textures" : [ null, "_rt_imageLayerComposite_13_b" ]
+						}
+					],
+					"visible" : true
+				},
+				{
+					"file" : "effects/waterripple/effect.json",
+					"id" : 12306,
+					"name" : "",
+					"passes" : 
+					[
+						{
+							"id" : 12307,
+							"textures" : 
+							[
+								null,
+								"masks/waterripple_mask_e13e8b7ab38539638bfe4bbf8d277794e266f49b",
+								"effects/waterripplenormal"
+							]
+						}
+					],
+					"visible" : true
+				}
+			],
+			"id" : 13,
+			"image" : "models/Sky.json",
+			"ledsource" : false,
+			"locktransforms" : true,
+			"name" : "Sky",
+			"origin" : "1280.00000 720.00000 0.00000",
+			"parallaxDepth" : "1.00000 1.00000",
+			"perspective" : false,
+			"scale" : "1.00000 1.00000 1.00000",
+			"size" : "2560.00000 1440.00000",
+			"solid" : true,
+			"visible" : true
+		},
+		{
+			"angles" : "0.00000 0.00000 0.00000",
+			"id" : 39,
+			"instanceoverride" : 
+			{
+				"count" : 1.5,
+				"id" : 60
+			},
+			"locktransforms" : false,
+			"name" : "Stars",
+			"origin" : "979.16083 948.24219 0.00000",
+			"parallaxDepth" : "1.00000 1.00000",
+			"particle" : "particles/workshop/2097513175/Stars.json",
+			"scale" : "1.00000 1.00000 1.00000",
+			"visible" : true
+		},
+		{
+			"angles" : "0.00000 0.00000 0.00000",
+			"id" : 50,
+			"instanceoverride" : 
+			{
+				"count" : 1.5,
+				"id" : 61
+			},
+			"locktransforms" : false,
+			"name" : "Stars",
+			"origin" : "808.46509 948.24219 0.00000",
+			"parallaxDepth" : "1.00000 1.00000",
+			"particle" : "particles/workshop/2097513175/Stars.json",
+			"scale" : "1.00000 1.00000 1.00000",
+			"visible" : true
+		},
+		{
+			"angles" : "0.00000 0.00000 0.00000",
+			"id" : 44,
+			"instanceoverride" : 
+			{
+				"id" : null
+			},
+			"locktransforms" : false,
+			"name" : "Stars",
+			"origin" : "1566.46973 948.24219 0.00000",
+			"parallaxDepth" : "1.00000 1.00000",
+			"particle" : "particles/workshop/2097513175/Stars.json",
+			"scale" : "1.00000 1.00000 1.00000",
+			"visible" : true
+		},
+		{
+			"angles" : "0.00000 0.00000 0.00000",
+			"id" : 47,
+			"instanceoverride" : 
+			{
+				"id" : null
+			},
+			"locktransforms" : false,
+			"name" : "Stars",
+			"origin" : "2058.30493 1179.69397 0.00000",
+			"parallaxDepth" : "1.00000 1.00000",
+			"particle" : "particles/workshop/2097513175/Stars.json",
+			"scale" : "0.50000 0.50000 0.50000",
+			"visible" : true
+		},
+		{
+			"angles" : "-0.00000 -0.00000 -1.06491",
+			"id" : 224,
+			"instanceoverride" : 
+			{
+				"count" : 2.0,
+				"id" : 226,
+				"size" : 3.0
+			},
+			"locktransforms" : false,
+			"name" : "Stars",
+			"origin" : "449.20300 1271.35266 0.00000",
+			"parallaxDepth" : "1.00000 1.00000",
+			"particle" : "particles/workshop/2097513175/Stars.json",
+			"scale" : "0.30000 0.30000 0.30000",
+			"visible" : true
+		},
+		{
+			"angles" : "0.00000 0.00000 0.00000",
+			"id" : 64,
+			"instanceoverride" : 
+			{
+				"id" : 65,
+				"lifetime" : 2.0,
+				"rate" : 0.69999998807907104,
+				"size" : 2.0
+			},
+			"locktransforms" : false,
+			"name" : "Shooting star",
+			"origin" : "687.83942 858.17487 0.00000",
+			"parallaxDepth" : "1.00000 1.00000",
+			"particle" : "particles/presets/shootingstar.json",
+			"scale" : "1.50000 1.50000 1.50000",
+			"visible" : true
+		},
+		{
+			"angles" : "0.00000 0.00000 0.00000",
+			"id" : 134,
+			"instanceoverride" : 
+			{
+				"id" : 136,
+				"lifetime" : 2.0,
+				"rate" : 0.69999998807907104,
+				"size" : 2.0
+			},
+			"locktransforms" : false,
+			"name" : "Shooting star",
+			"origin" : "2009.05835 950.23956 0.00000",
+			"parallaxDepth" : "1.00000 1.00000",
+			"particle" : "particles/presets/shootingstar.json",
+			"scale" : "1.50000 1.50000 1.50000",
+			"visible" : true
+		},
+		{
+			"alignment" : "center",
+			"alpha" : 1.0,
+			"angles" : "0.00000 0.00000 0.00000",
+			"brightness" : 1.0,
+			"color" : "1.00000 1.00000 1.00000",
+			"colorBlendMode" : 0,
+			"copybackground" : true,
+			"effects" : 
+			[
+				{
+					"file" : "effects/shake/effect.json",
+					"id" : 490,
+					"name" : "",
+					"passes" : 
+					[
+						{
+							"id" : 491,
+							"textures" : 
+							[
+								null,
+								"masks/shake_mask_49a6abdac5c940693153ad339e54004d21876cf1",
+								"util/white"
+							]
+						}
+					],
+					"visible" : true
+				}
+			],
+			"id" : 27,
+			"image" : "models/Cloud.json",
+			"ledsource" : false,
+			"locktransforms" : true,
+			"name" : "Cloud",
+			"origin" : "554.56140 887.28833 0.00000",
+			"parallaxDepth" : "1.00000 1.00000",
+			"perspective" : false,
+			"scale" : "1.00000 1.00000 1.00000",
+			"size" : "852.00000 569.00000",
+			"solid" : true,
+			"visible" : true
+		},
+		{
+			"angles" : "0.00000 -0.00000 0.20209",
+			"id" : 571,
+			"instanceoverride" : 
+			{
+				"colorn" : "0.85098 0.74118 1.00000",
+				"count" : 0.5,
+				"id" : 573,
+				"lifetime" : 0.5,
+				"rate" : 0.5
+			},
+			"locktransforms" : false,
+			"name" : "Sakura",
+			"origin" : "1155.31995 540.76880 0.00000",
+			"parallaxDepth" : "1.00000 1.00000",
+			"particle" : "particles/presets/leaves5.json",
+			"scale" : "0.50000 0.50000 0.50000",
+			"visible" : true
+		},
+		{
+			"alignment" : "center",
+			"alpha" : 1.0,
+			"angles" : "0.00000 0.00000 0.00000",
+			"brightness" : 1.0,
+			"color" : "1.00000 1.00000 1.00000",
+			"colorBlendMode" : 0,
+			"copybackground" : true,
+			"effects" : 
+			[
+				{
+					"file" : "effects/foliagesway/effect.json",
+					"id" : 3330,
+					"name" : "Grass",
+					"passes" : 
+					[
+						{
+							"constantshadervalues" : 
+							{
+								"phase" : 1,
+								"scale" : 0.10000000000000001,
+								"scrolldirection" : -2.687748652068283,
+								"speeduv" : 3,
+								"strength" : 0.29999999999999999
+							},
+							"id" : 3331,
+							"textures" : 
+							[
+								null,
+								"masks/foliagesway_mask_e864acbbac5cc83035e8ec642695dce8e1cf1b6a",
+								"util/noise"
+							]
+						}
+					],
+					"visible" : true
+				},
+				{
+					"file" : "effects/foliagesway/effect.json",
+					"id" : 7673,
+					"name" : "Trees",
+					"passes" : 
+					[
+						{
+							"constantshadervalues" : 
+							{
+								"scale" : 0.29999999999999999,
+								"scrolldirection" : -3.1415926535897931,
+								"speeduv" : 3,
+								"strength" : 0.5
+							},
+							"id" : 7674,
+							"textures" : 
+							[
+								null,
+								"masks/foliagesway_mask_8031e77678ff36970c82b0b66ebea75bb6a1bd36",
+								"util/noise"
+							]
+						}
+					],
+					"visible" : true
+				},
+				{
+					"file" : "effects/pulse/effect.json",
+					"id" : 9011,
+					"name" : "",
+					"passes" : 
+					[
+						{
+							"constantshadervalues" : 
+							{
+								"amount" : 0.35999999999999999,
+								"noiseamount" : 0.56999999999999995,
+								"noisespeed" : 0.070000000000000007,
+								"power" : 3,
+								"speed" : 2,
+								"tinthigh" : "0.2784313725490196 0.9529411764705882 0.9921568627450981"
+							},
+							"id" : 9012,
+							"textures" : 
+							[
+								null,
+								"util/noise",
+								"masks/pulse_mask_9af5eedee80ebfec519539942f5b9e9908dbf12b"
+							]
+						}
+					],
+					"visible" : true
+				},
+				{
+					"file" : "effects/pulse/effect.json",
+					"id" : 9375,
+					"name" : "",
+					"passes" : 
+					[
+						{
+							"constantshadervalues" : 
+							{
+								"amount" : 0.25,
+								"noiseamount" : 0,
+								"noisespeed" : 0.16,
+								"phase" : 1.3300000000000001,
+								"tinthigh" : "1 1 0"
+							},
+							"id" : 9376,
+							"textures" : 
+							[
+								null,
+								"util/noise",
+								"masks/pulse_mask_a01080c4f6adfbdbacc03b1d0414c9a4daefc352"
+							]
+						}
+					],
+					"visible" : true
+				},
+				{
+					"file" : "effects/shine/effect.json",
+					"id" : 9505,
+					"name" : "",
+					"passes" : 
+					[
+						{
+							"constantshadervalues" : 
+							{
+								"noiseamount" : 1,
+								"noisescale" : 1.8600000000000001,
+								"noisespeed" : 0.14999999999999999,
+								"raythreshold" : 0.66000000000000003
+							},
+							"id" : 9506,
+							"textures" : 
+							[
+								null,
+								"masks/shine_downsample2_mask_b7ba210caf7ea60f6c1bc53d7ff128af44fd3967",
+								"util/clouds_256"
+							]
+						},
+						{
+							"constantshadervalues" : 
+							{
+								"color" : "1 0.6470588235294118 0",
+								"direction" : -3.1415926535897931,
+								"rayintensity" : 0.56000000000000005,
+								"raylength" : 0.27000000000000002
+							},
+							"id" : 9508
+						},
+						{
+							"id" : 9509
+						},
+						{
+							"combos" : 
+							{
+								"VERTICAL" : 1
+							},
+							"id" : 9510
+						},
+						{
+							"id" : 9511,
+							"textures" : [ null, "_rt_imageLayerComposite_18_a" ]
+						}
+					],
+					"visible" : true
+				},
+				{
+					"file" : "effects/pulse/effect.json",
+					"id" : 9651,
+					"name" : "",
+					"passes" : 
+					[
+						{
+							"constantshadervalues" : 
+							{
+								"amount" : 0.17000000000000001,
+								"phase" : 2.7000000000000002,
+								"tinthigh" : "1 0.6470588235294118 0"
+							},
+							"id" : 9652,
+							"textures" : 
+							[
+								null,
+								"util/noise",
+								"masks/pulse_mask_a244f3c0ad93253480c74aa401fa7a025f84233d"
+							]
+						}
+					],
+					"visible" : true
+				},
+				{
+					"file" : "effects/shine/effect.json",
+					"id" : 9736,
+					"name" : "",
+					"passes" : 
+					[
+						{
+							"constantshadervalues" : 
+							{
+								"noiseamount" : 0.65000000000000002,
+								"noisescale" : 5.1699999999999999,
+								"noisespeed" : 0.32000000000000001,
+								"raythreshold" : 0.73999999999999999
+							},
+							"id" : 9737,
+							"textures" : 
+							[
+								null,
+								"masks/shine_downsample2_mask_ddebed0b252c7b89df4e48d19f4c713587acb7bc",
+								"util/clouds_256"
+							]
+						},
+						{
+							"constantshadervalues" : 
+							{
+								"color" : "1 0.6470588235294118 0",
+								"rayintensity" : 0.63,
+								"raylength" : 0.0099999997764825821
+							},
+							"id" : 9738
+						},
+						{
+							"id" : 9739
+						},
+						{
+							"combos" : 
+							{
+								"VERTICAL" : 1
+							},
+							"id" : 9740
+						},
+						{
+							"id" : 9741,
+							"textures" : [ null, "_rt_imageLayerComposite_18_a" ]
+						}
+					],
+					"visible" : true
+				}
+			],
+			"id" : 18,
+			"image" : "models/Shrine.json",
+			"ledsource" : false,
+			"locktransforms" : true,
+			"name" : "Shrine",
+			"origin" : "1279.40833 719.67035 0.00000",
+			"parallaxDepth" : "1.00000 1.00000",
+			"perspective" : false,
+			"scale" : "1.00000 1.00000 1.00000",
+			"size" : "2560.00000 1440.00000",
+			"solid" : true,
+			"visible" : true
+		},
+		{
+			"alignment" : "center",
+			"alpha" : 1.0,
+			"angles" : "0.00000 0.00000 0.00000",
+			"animationlayers" : 
+			[
+				{
+					"additive" : false,
+					"animation" : 9962,
+					"blend" : 1.0,
+					"id" : 10112,
+					"name" : "Animation 1",
+					"rate" : 1.5,
+					"visible" : true
+				}
+			],
+			"brightness" : 1.0,
+			"color" : "1.00000 1.00000 1.00000",
+			"colorBlendMode" : 0,
+			"copybackground" : true,
+			"effects" : 
+			[
+				{
+					"file" : "effects/foliagesway/effect.json",
+					"id" : 9852,
+					"name" : "",
+					"passes" : 
+					[
+						{
+							"constantshadervalues" : 
+							{
+								"scale" : 0,
+								"scrolldirection" : 3.1211873229032552,
+								"strength" : 0.20000000000000001
+							},
+							"id" : 9853,
+							"textures" : [ null, "util/white", "util/noise" ]
+						}
+					],
+					"visible" : true
+				},
+				{
+					"file" : "effects/shine/effect.json",
+					"id" : 11393,
+					"name" : "",
+					"passes" : 
+					[
+						{
+							"constantshadervalues" : 
+							{
+								"noiseamount" : 1,
+								"noisescale" : 4.71,
+								"noisespeed" : 0.40000000000000002,
+								"raythreshold" : 0.76000000000000001
+							},
+							"id" : 11394,
+							"textures" : 
+							[
+								null,
+								"masks/shine_downsample2_mask_4b8ef7b6aedbb7cea4b606273f9b22afa1d49ada",
+								"util/clouds_256"
+							]
+						},
+						{
+							"constantshadervalues" : 
+							{
+								"direction" : -0.069813170079772391,
+								"rayintensity" : 0.040000000000000001,
+								"raylength" : 0.35999999999999999
+							},
+							"id" : 11395
+						},
+						{
+							"id" : 11396
+						},
+						{
+							"combos" : 
+							{
+								"VERTICAL" : 1
+							},
+							"id" : 11397
+						},
+						{
+							"id" : 11398,
+							"textures" : [ null, "_rt_imageLayerComposite_29_a" ]
+						}
+					],
+					"visible" : true
+				},
+				{
+					"file" : "effects/pulse/effect.json",
+					"id" : 11477,
+					"name" : "",
+					"passes" : 
+					[
+						{
+							"constantshadervalues" : 
+							{
+								"amount" : 0.17000000000000001,
+								"noiseamount" : 1.52,
+								"power" : 0.41999999999999998,
+								"tinthigh" : "0.9137254901960784 0.7294117647058823 0.49411764705882355"
+							},
+							"id" : 11478,
+							"textures" : 
+							[
+								null,
+								"util/noise",
+								"masks/pulse_mask_a08ab80e0431b4a00284f61eeeb2753f90dd9289"
+							]
+						}
+					],
+					"visible" : true
+				}
+			],
+			"id" : 29,
+			"image" : "models/double lantern.json",
+			"ledsource" : false,
+			"locktransforms" : true,
+			"name" : "double lantern",
+			"origin" : "1040.56140 476.68872 0.00000",
+			"parallaxDepth" : "1.00000 1.00000",
+			"perspective" : false,
+			"scale" : "1.00000 1.00000 1.00000",
+			"size" : "376.00000 275.00000",
+			"solid" : true,
+			"visible" : true
+		},
+		{
+			"alignment" : "center",
+			"alpha" : 1.0,
+			"angles" : "0.00000 0.00000 0.00000",
+			"animationlayers" : 
+			[
+				{
+					"additive" : false,
+					"animation" : 10808,
+					"blend" : 1.0,
+					"id" : 10865,
+					"name" : "Animation 1",
+					"rate" : 1.5,
+					"visible" : true
+				}
+			],
+			"brightness" : 1.0,
+			"color" : "1.00000 1.00000 1.00000",
+			"colorBlendMode" : 0,
+			"copybackground" : true,
+			"id" : 10696,
+			"image" : "models/left lantern.json",
+			"ledsource" : false,
+			"locktransforms" : true,
+			"name" : "left lantern",
+			"origin" : "1314.01318 537.48212 0.00000",
+			"parallaxDepth" : "1.00000 1.00000",
+			"perspective" : false,
+			"scale" : "1.00000 1.00000 1.00000",
+			"size" : "121.00000 146.00000",
+			"solid" : true,
+			"visible" : true
+		},
+		{
+			"alignment" : "center",
+			"alpha" : 1.0,
+			"angles" : "0.00000 0.00000 0.00000",
+			"animationlayers" : 
+			[
+				{
+					"additive" : false,
+					"animation" : 10897,
+					"blend" : 1.0,
+					"id" : 10975,
+					"name" : "Animation 1",
+					"rate" : 1.5,
+					"visible" : true
+				}
+			],
+			"brightness" : 1.0,
+			"color" : "1.00000 1.00000 1.00000",
+			"colorBlendMode" : 0,
+			"copybackground" : true,
+			"id" : 10709,
+			"image" : "models/middle lantern.json",
+			"ledsource" : false,
+			"locktransforms" : true,
+			"name" : "middle lantern",
+			"origin" : "1340.96545 544.62012 0.00000",
+			"parallaxDepth" : "1.00000 1.00000",
+			"perspective" : false,
+			"scale" : "1.00000 1.00000 1.00000",
+			"size" : "120.00000 146.00000",
+			"solid" : true,
+			"visible" : true
+		},
+		{
+			"alignment" : "center",
+			"alpha" : 1.0,
+			"angles" : "0.00000 0.00000 0.00000",
+			"animationlayers" : 
+			[
+				{
+					"additive" : false,
+					"animation" : 11007,
+					"blend" : 1.0,
+					"id" : 11052,
+					"name" : "Animation 1",
+					"rate" : 1.5,
+					"visible" : true
+				}
+			],
+			"brightness" : 1.0,
+			"color" : "1.00000 1.00000 1.00000",
+			"colorBlendMode" : 0,
+			"copybackground" : true,
+			"id" : 10728,
+			"image" : "models/right lantern.json",
+			"ledsource" : false,
+			"locktransforms" : true,
+			"name" : "right lantern",
+			"origin" : "1367.41760 549.71564 0.00000",
+			"parallaxDepth" : "1.00000 1.00000",
+			"perspective" : false,
+			"scale" : "1.00000 1.00000 1.00000",
+			"size" : "124.00000 146.00000",
+			"solid" : true,
+			"visible" : true
+		},
+		{
+			"angles" : "-0.00000 -0.00000 -0.22674",
+			"id" : 11159,
+			"instanceoverride" : 
+			{
+				"id" : 11160,
+				"lifetime" : 0.30000001192092896,
+				"rate" : 0.20000000298023224,
+				"size" : 1.2999999523162842
+			},
+			"locktransforms" : false,
+			"name" : "Ember small",
+			"origin" : "651.31952 345.52893 0.00000",
+			"parallaxDepth" : "1.00000 1.00000",
+			"particle" : "particles/presets/ember_small.json",
+			"scale" : "1.00000 1.00000 1.00000",
+			"visible" : true
+		},
+		{
+			"angles" : "-0.00000 -0.00000 -0.54711",
+			"id" : 11267,
+			"instanceoverride" : 
+			{
+				"id" : 11269,
+				"lifetime" : 0.30000001192092896,
+				"rate" : 0.20000000298023224,
+				"size" : 1.2999999523162842
+			},
+			"locktransforms" : false,
+			"name" : "Ember small",
+			"origin" : "813.02771 355.51685 0.00000",
+			"parallaxDepth" : "1.00000 1.00000",
+			"particle" : "particles/presets/ember_small.json",
+			"scale" : "1.00000 1.00000 1.00000",
+			"visible" : true
+		},
+		{
+			"angles" : "-0.00000 -0.00000 -0.36012",
+			"id" : 11767,
+			"instanceoverride" : 
+			{
+				"colorn" : "0.00000 1.00000 1.00000",
+				"id" : 11768,
+				"lifetime" : 0.5,
+				"rate" : 0.20000000298023224,
+				"size" : 1.2000000476837158
+			},
+			"locktransforms" : false,
+			"name" : "Ember small",
+			"origin" : "-162.71771 73.67210 0.00000",
+			"parallaxDepth" : "1.00000 1.00000",
+			"particle" : "particles/presets/ember_small.json",
+			"scale" : "2.00000 2.00000 2.00000",
+			"visible" : true
+		},
+		{
+			"angles" : "-0.00000 -0.00000 -0.80980",
+			"id" : 12045,
+			"instanceoverride" : 
+			{
+				"colorn" : "0.00000 1.00000 1.00000",
+				"id" : 12047,
+				"lifetime" : 0.5,
+				"rate" : 0.10000000149011612,
+				"size" : 1.2000000476837158
+			},
+			"locktransforms" : false,
+			"name" : "Ember small",
+			"origin" : "425.91638 -33.57907 0.00000",
+			"parallaxDepth" : "1.00000 1.00000",
+			"particle" : "particles/presets/ember_small.json",
+			"scale" : "2.00000 2.00000 2.00000",
+			"visible" : true
+		},
+		{
+			"angles" : "-0.00000 -0.00000 -0.75731",
+			"id" : 12077,
+			"instanceoverride" : 
+			{
+				"colorn" : "0.00000 1.00000 1.00000",
+				"id" : 12079,
+				"lifetime" : 0.5,
+				"rate" : 0.10000000149011612,
+				"size" : 1.2000000476837158
+			},
+			"locktransforms" : false,
+			"name" : "Ember small",
+			"origin" : "1089.37695 -58.52124 0.00000",
+			"parallaxDepth" : "1.00000 1.00000",
+			"particle" : "particles/presets/ember_small.json",
+			"scale" : "2.00000 2.00000 2.00000",
+			"visible" : true
+		},
+		{
+			"angles" : "-0.00000 -0.00000 -0.75731",
+			"id" : 12111,
+			"instanceoverride" : 
+			{
+				"colorn" : "0.00000 1.00000 1.00000",
+				"id" : null,
+				"lifetime" : 0.5,
+				"rate" : 0.10000000149011612,
+				"size" : 1.2000000476837158
+			},
+			"locktransforms" : false,
+			"name" : "Ember small",
+			"origin" : "1762.81433 -88.45184 0.00000",
+			"parallaxDepth" : "1.00000 1.00000",
+			"particle" : "particles/presets/ember_small.json",
+			"scale" : "2.00000 2.00000 2.00000",
+			"visible" : true
+		},
+		{
+			"angles" : "0.00000 0.00000 0.00000",
+			"id" : 221,
+			"locktransforms" : false,
+			"maxtime" : 5.0,
+			"mintime" : 1.0,
+			"muteineditor" : true,
+			"name" : "tenno & raimu - hidden shrine (Lofi HipHop).mp3",
+			"origin" : "0.00000 0.00000 0.00000",
+			"parallaxDepth" : "1.00000 1.00000",
+			"playbackmode" : "loop",
+			"scale" : "1.00000 1.00000 1.00000",
+			"sound" : [ "sounds/tenno & raimu - hidden shrine (Lofi HipHop).mp3" ],
+			"startsilent" : false,
+			"volume" : 0.5
+		},
+		{
+			"angles" : "0.00000 0.00000 0.00000",
+			"id" : 443,
+			"instanceoverride" : 
+			{
+				"colorn" : "0.88235 0.79608 1.00000",
+				"count" : 0.5,
+				"id" : 444,
+				"lifetime" : 0.40000000596046448,
+				"rate" : 0.5
+			},
+			"locktransforms" : false,
+			"name" : "Sakura",
+			"origin" : "1270.72681 969.62708 0.00000",
+			"parallaxDepth" : "1.00000 1.00000",
+			"particle" : "particles/presets/leaves5.json",
+			"scale" : "0.50000 0.50000 0.50000",
+			"visible" : true
+		},
+		{
+			"angles" : "0.00000 0.00000 0.00000",
+			"id" : 729,
+			"instanceoverride" : 
+			{
+				"colorn" : "0.88235 0.79608 1.00000",
+				"count" : 0.5,
+				"id" : 731,
+				"lifetime" : 0.40000000596046448,
+				"rate" : 0.5
+			},
+			"locktransforms" : false,
+			"name" : "Sakura",
+			"origin" : "1895.60645 474.78854 0.00000",
+			"parallaxDepth" : "1.00000 1.00000",
+			"particle" : "particles/presets/leaves5.json",
+			"scale" : "0.30000 0.50000 0.30000",
+			"visible" : true
+		}
+	],
+	"version" : 1
+}

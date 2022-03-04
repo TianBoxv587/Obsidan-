@@ -1,0 +1,24 @@
+{
+	"passes" : 
+	[
+		{
+			"blending" : "translucent",
+			"combos" : 
+			{
+				"LIGHTING" : 1,
+				"REFLECTION" : 1,
+				"VERSION" : 2
+			},
+			"constantshadervalues" : 
+			{
+				"reflectivity" : 0.38,
+				"roughness" : 0.93999999999999995
+			},
+			"cullmode" : "nocull",
+			"depthtest" : "disabled",
+			"depthwrite" : "disabled",
+			"shader" : "genericimage2",
+			"textures" : [ "Robot_Body", "Robot_Body_normal", "masks/Robot_Body_mask_3b3aa242" ]
+		}
+	]
+}

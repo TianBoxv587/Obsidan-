@@ -1,0 +1,5 @@
+{
+	"autosize" : true,
+	"material" : "materials/Robot_Head.json",
+	"puppet" : "models/Robot_Head_puppet.mdl"
+}

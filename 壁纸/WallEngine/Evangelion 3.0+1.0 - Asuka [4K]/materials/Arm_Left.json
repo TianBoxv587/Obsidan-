@@ -1,0 +1,25 @@
+{
+	"passes" : 
+	[
+		{
+			"blending" : "translucent",
+			"combos" : 
+			{
+				"LIGHTING" : 0,
+				"REFLECTION" : 1,
+				"VERSION" : 2
+			},
+			"constantshadervalues" : 
+			{
+				"metallic" : 1,
+				"reflectivity" : 1,
+				"roughness" : 1
+			},
+			"cullmode" : "nocull",
+			"depthtest" : "disabled",
+			"depthwrite" : "disabled",
+			"shader" : "genericimage2",
+			"textures" : [ "Arm_Left", "Arm_Left_normal", "masks/Arm_Left_mask_b92d082f" ]
+		}
+	]
+}

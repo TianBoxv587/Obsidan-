@@ -1,0 +1,76 @@
+{
+	"camera" : 
+	{
+		"center" : "-241.445 113.835 -1.000",
+		"eye" : "-241.445 113.835 0.000",
+		"up" : "0.000 1.000 0.000"
+	},
+	"general" : 
+	{
+		"ambientcolor" : "0.3 0.3 0.3",
+		"bloom" : false,
+		"bloomstrength" : 2,
+		"bloomthreshold" : 0.64999997615814209,
+		"camerafade" : true,
+		"cameraparallax" : false,
+		"cameraparallaxamount" : 0.5,
+		"cameraparallaxdelay" : 0.10000000149011612,
+		"cameraparallaxmouseinfluence" : 0,
+		"camerapreview" : true,
+		"camerashake" : false,
+		"camerashakeamplitude" : 0.5,
+		"camerashakeroughness" : 1,
+		"camerashakespeed" : 3,
+		"clearcolor" : "0.7 0.7 0.7",
+		"clearenabled" : null,
+		"orthogonalprojection" : 
+		{
+			"height" : 1080,
+			"width" : 1920
+		},
+		"skylightcolor" : "0.3 0.3 0.3"
+	},
+	"objects" : 
+	[
+		{
+			"angles" : "0.000 0.000 0.000",
+			"colorBlendMode" : 0,
+			"copybackground" : true,
+			"effects" : 
+			[
+				{
+					"file" : "effects/waterripple/effect.json",
+					"passes" : 
+					[
+						{
+							"constantshadervalues" : 
+							{
+								"ui_editor_properties_animation_speed" : 0.070000000298023224,
+								"ui_editor_properties_ratio" : 1.2000000476837158,
+								"ui_editor_properties_ripple_scale" : 0.75,
+								"ui_editor_properties_ripple_strength" : 0.079999998211860657
+							},
+							"textures" : 
+							[
+								null,
+								"effects/waterripplenormal",
+								"masks/waterripple_mask_ee0d9bbc6d0516b8583c8fb3e841485c0b7ec4e8"
+							]
+						}
+					],
+					"username" : "",
+					"visible" : true
+				}
+			],
+			"id" : 81,
+			"image" : "models/2018-07-19 (2).json",
+			"locktransforms" : false,
+			"name" : "2018-07-19 (2)",
+			"origin" : "960.000 540.000 0.000",
+			"parallaxDepth" : "1.000 1.000",
+			"scale" : "1.000 1.000 1.000",
+			"size" : "1920.000 1080.000",
+			"visible" : true
+		}
+	]
+}

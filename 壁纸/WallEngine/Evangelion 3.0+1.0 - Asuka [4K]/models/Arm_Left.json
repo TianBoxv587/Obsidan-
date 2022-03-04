@@ -1,0 +1,5 @@
+{
+	"autosize" : true,
+	"material" : "materials/Arm_Left.json",
+	"puppet" : "models/Arm_Left_puppet.mdl"
+}

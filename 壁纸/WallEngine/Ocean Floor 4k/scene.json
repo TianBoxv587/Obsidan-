@@ -1,0 +1,1412 @@
+{
+	"camera" : 
+	{
+		"center" : "0.000 0.000 -1.000",
+		"eye" : "0.000 0.000 0.000",
+		"up" : "0.000 1.000 0.000"
+	},
+	"general" : 
+	{
+		"ambientcolor" : "0.300 0.300 0.300",
+		"bloom" : false,
+		"bloomstrength" : 2.0,
+		"bloomthreshold" : 0.64999997615814209,
+		"camerafade" : true,
+		"cameraparallax" : false,
+		"cameraparallaxamount" : 0.5,
+		"cameraparallaxdelay" : 0.10000000149011612,
+		"cameraparallaxmouseinfluence" : 0.0,
+		"camerapreview" : true,
+		"camerashake" : false,
+		"camerashakeamplitude" : 0.5,
+		"camerashakeroughness" : 1.0,
+		"camerashakespeed" : 3.0,
+		"clearcolor" : "0.700 0.700 0.700",
+		"clearenabled" : true,
+		"farz" : 10000.0,
+		"fov" : 50.0,
+		"nearz" : 0.0099999997764825821,
+		"orthogonalprojection" : 
+		{
+			"height" : 2160,
+			"width" : 3840
+		},
+		"skylightcolor" : "0.300 0.300 0.300",
+		"zoom" : 1.0
+	},
+	"objects" : 
+	[
+		{
+			"alignment" : "center",
+			"alpha" : 1.0,
+			"angles" : "0.000 0.000 0.000",
+			"color" : "1.000 1.000 1.000",
+			"colorBlendMode" : 0,
+			"copybackground" : true,
+			"effects" : 
+			[
+				{
+					"file" : "effects/waterwaves/effect.json",
+					"id" : 5714,
+					"name" : "1,3,6",
+					"passes" : 
+					[
+						{
+							"constantshadervalues" : 
+							{
+								"direction" : -2.3561944901923448,
+								"scale" : 10,
+								"speed" : 1.8999999999999999,
+								"strength" : 0.050000000000000003
+							},
+							"id" : 5715,
+							"textures" : 
+							[
+								null,
+								"masks/waterwaves_mask_681d95af21112ea41fc4cd51aa49d9c553ef1173"
+							]
+						}
+					],
+					"visible" : true
+				},
+				{
+					"file" : "effects/waterwaves/effect.json",
+					"id" : 6643,
+					"name" : "2,4",
+					"passes" : 
+					[
+						{
+							"constantshadervalues" : 
+							{
+								"direction" : 1.4288992721907328,
+								"scale" : 9,
+								"speed" : 1.27,
+								"strength" : 0.070000000000000007
+							},
+							"id" : 6644,
+							"textures" : 
+							[
+								null,
+								"masks/waterwaves_mask_843377ec5689457129ad9ee2dd9c051f084db05d"
+							]
+						}
+					],
+					"visible" : true
+				},
+				{
+					"file" : "effects/waterwaves/effect.json",
+					"id" : 7310,
+					"name" : "5,7",
+					"passes" : 
+					[
+						{
+							"constantshadervalues" : 
+							{
+								"direction" : -0.41450687458478597,
+								"scale" : 8,
+								"speed" : 1.2,
+								"strength" : 0.059999999999999998
+							},
+							"id" : 7311,
+							"textures" : 
+							[
+								null,
+								"masks/waterwaves_mask_bdbea347ab7838b0661ae6af118d7d24d301b354"
+							]
+						}
+					],
+					"visible" : true
+				},
+				{
+					"file" : "effects/shake/effect.json",
+					"id" : 5395,
+					"name" : "Big shark",
+					"passes" : 
+					[
+						{
+							"constantshadervalues" : 
+							{
+								"speed" : 0.68999999999999995,
+								"strength" : 0.070000000000000007
+							},
+							"id" : 5396,
+							"textures" : 
+							[
+								null,
+								"masks/shake_mask_14baecd88cd86197979e9592a3614e57bbd01235",
+								"util/white"
+							]
+						}
+					],
+					"visible" : true
+				},
+				{
+					"file" : "effects/shake/effect.json",
+					"id" : 7727,
+					"name" : "Small fishes",
+					"passes" : 
+					[
+						{
+							"constantshadervalues" : 
+							{
+								"speed" : 0.80000000000000004,
+								"strength" : 0.080000000000000002
+							},
+							"id" : 7728,
+							"textures" : 
+							[
+								null,
+								"masks/shake_mask_15c0e340127e863c97e552f860f4a84c3cb6ab74",
+								"util/white"
+							]
+						}
+					],
+					"visible" : true
+				},
+				{
+					"file" : "effects/waterripple/effect.json",
+					"id" : 5200,
+					"name" : "",
+					"passes" : 
+					[
+						{
+							"constantshadervalues" : 
+							{
+								"animationspeed" : 0.11,
+								"scale" : 0.14999999999999999
+							},
+							"id" : 5201,
+							"textures" : [ null, "util/white", "effects/waterripplenormal" ]
+						}
+					],
+					"visible" : true
+				}
+			],
+			"id" : 5118,
+			"image" : "models/Water3.0.json",
+			"ledsource" : false,
+			"locktransforms" : false,
+			"name" : "Water3.0",
+			"origin" : "1927.425 1097.022 0.000",
+			"parallaxDepth" : "1.000 1.000",
+			"perspective" : false,
+			"scale" : "1.011 1.011 1.011",
+			"size" : "3840.000 2160.000",
+			"solid" : true,
+			"visible" : true
+		},
+		{
+			"alignment" : "center",
+			"alpha" : 
+			{
+				"user" : "darkness",
+				"value" : 0.5
+			},
+			"angles" : "0.000 0.000 0.000",
+			"color" : "1.000 1.000 1.000",
+			"colorBlendMode" : 0,
+			"copybackground" : true,
+			"id" : 1600,
+			"image" : "models/maxresdefault.json",
+			"ledsource" : false,
+			"locktransforms" : false,
+			"name" : "BlackFull",
+			"origin" : "1968.602 1065.215 0.000",
+			"parallaxDepth" : "1.000 1.000",
+			"perspective" : false,
+			"scale" : "3.200 3.200 3.200",
+			"size" : "1280.000 720.000",
+			"solid" : true,
+			"visible" : 
+			{
+				"user" : "darkmode",
+				"value" : false
+			}
+		},
+		{
+			"alignment" : "center",
+			"alpha" : 0.25,
+			"angles" : "0.000 0.000 0.000",
+			"color" : "1.000 1.000 1.000",
+			"colorBlendMode" : 0,
+			"copybackground" : true,
+			"effects" : 
+			[
+				{
+					"file" : "effects/shine/effect.json",
+					"id" : 12317,
+					"name" : "",
+					"passes" : 
+					[
+						{
+							"constantshadervalues" : 
+							{
+								"noisespeed" : 0.14999999999999999,
+								"raythreshold" : 0
+							},
+							"id" : 12318,
+							"textures" : 
+							[
+								null,
+								"masks/shine_downsample2_mask_f70f9ff7f36792aaf0936bc8a4417d5ae7608ba6",
+								"util/clouds_256"
+							]
+						},
+						{
+							"constantshadervalues" : 
+							{
+								"rayintensity" : 0.34000000000000002,
+								"raylength" : 0.0099999997764825821
+							},
+							"id" : 12319
+						},
+						{
+							"id" : 12320
+						},
+						{
+							"combos" : 
+							{
+								"VERTICAL" : 1
+							},
+							"id" : 12321
+						},
+						{
+							"id" : 12322,
+							"textures" : [ null, "_rt_imageLayerComposite_11258_a" ]
+						}
+					],
+					"visible" : true
+				},
+				{
+					"file" : "effects/waterwaves/effect.json",
+					"id" : 11822,
+					"name" : "",
+					"passes" : 
+					[
+						{
+							"constantshadervalues" : 
+							{
+								"direction" : 0.89138252138704821,
+								"speed" : 1.8999999999999999,
+								"strength" : 0.029999999999999999
+							},
+							"id" : 11823,
+							"textures" : 
+							[
+								null,
+								"masks/waterwaves_mask_b84aaa979b81a080e1c45d2cc48fe0b382ca656b"
+							]
+						}
+					],
+					"visible" : 
+					{
+						"user" : "fishmovement",
+						"value" : true
+					}
+				},
+				{
+					"file" : "effects/shake/effect.json",
+					"id" : 11590,
+					"name" : "In and out",
+					"passes" : 
+					[
+						{
+							"constantshadervalues" : 
+							{
+								"speed" : 0.80000000000000004,
+								"strength" : 0.080000000000000002
+							},
+							"id" : 11591,
+							"textures" : 
+							[
+								null,
+								"masks/shake_mask_4a2d41d84a7dcf3940999cf9720a068eebc82b36",
+								"util/white"
+							]
+						}
+					],
+					"visible" : 
+					{
+						"user" : "fishmovement",
+						"value" : true
+					}
+				},
+				{
+					"file" : "effects/shake/effect.json",
+					"id" : 13499,
+					"name" : "Under in and out",
+					"passes" : 
+					[
+						{
+							"constantshadervalues" : 
+							{
+								"speed" : 0.80000000000000004,
+								"strength" : 0.040000000000000001
+							},
+							"id" : 13500,
+							"textures" : 
+							[
+								null,
+								"masks/shake_mask_4202550e4dcc5feb1a129e72ae6e082ba0178b86",
+								"masks/shake_mask_74d3ec40910d18f16b2226e4ca19458ac2552216"
+							]
+						}
+					],
+					"visible" : 
+					{
+						"user" : "fishmovement",
+						"value" : true
+					}
+				},
+				{
+					"file" : "effects/shake/effect.json",
+					"id" : 12962,
+					"name" : "Side to side",
+					"passes" : 
+					[
+						{
+							"constantshadervalues" : 
+							{
+								"speed" : 0.59999999999999998,
+								"strength" : 0.059999999999999998
+							},
+							"id" : 12963,
+							"textures" : 
+							[
+								null,
+								"masks/shake_mask_eb8253a662e29aa081e988df9b510990ff1507b4",
+								"util/white"
+							]
+						}
+					],
+					"visible" : 
+					{
+						"user" : "fishmovement",
+						"value" : true
+					}
+				},
+				{
+					"file" : "effects/waterripple/effect.json",
+					"id" : 469,
+					"name" : "",
+					"passes" : 
+					[
+						{
+							"constantshadervalues" : 
+							{
+								"animationspeed" : 0.10000000000000001,
+								"ripplestrength" : 0.080000000000000002,
+								"scale" : 0.29999999999999999
+							},
+							"id" : 470,
+							"textures" : [ null, "util/white", "effects/waterripplenormal" ]
+						}
+					],
+					"visible" : true
+				},
+				{
+					"file" : "effects/scroll/effect.json",
+					"id" : 12626,
+					"name" : "",
+					"passes" : 
+					[
+						{
+							"constantshadervalues" : 
+							{
+								"speedx" : 0,
+								"speedy" : 0.12
+							},
+							"id" : 12627
+						}
+					],
+					"visible" : 
+					{
+						"user" : "fishmovement",
+						"value" : true
+					}
+				}
+			],
+			"id" : 11258,
+			"image" : "models/JellyFish3.0.json",
+			"ledsource" : false,
+			"locktransforms" : false,
+			"name" : "JellyFishRig",
+			"origin" : "1814.093 1164.424 0.000",
+			"parallaxDepth" : "1.000 1.000",
+			"perspective" : false,
+			"scale" : "1.040 1.040 1.040",
+			"size" : "3840.000 2160.000",
+			"solid" : true,
+			"visible" : 
+			{
+				"user" : "seaanimals",
+				"value" : true
+			}
+		},
+		{
+			"alignment" : "center",
+			"alpha" : 0.25,
+			"angles" : "0.000 0.000 0.000",
+			"color" : "1.000 1.000 1.000",
+			"colorBlendMode" : 0,
+			"copybackground" : true,
+			"effects" : 
+			[
+				{
+					"file" : "effects/shine/effect.json",
+					"id" : 327,
+					"name" : "",
+					"passes" : 
+					[
+						{
+							"constantshadervalues" : 
+							{
+								"noisespeed" : 0.10000000000000001,
+								"raythreshold" : 0
+							},
+							"id" : 328,
+							"textures" : 
+							[
+								null,
+								"masks/shine_downsample2_mask_f70f9ff7f36792aaf0936bc8a4417d5ae7608ba6",
+								"util/clouds_256"
+							]
+						},
+						{
+							"constantshadervalues" : 
+							{
+								"rayintensity" : 0.45000000000000001,
+								"raylength" : 0.0099999997764825821
+							},
+							"id" : 329
+						},
+						{
+							"id" : 330
+						},
+						{
+							"combos" : 
+							{
+								"VERTICAL" : 1
+							},
+							"id" : 331
+						},
+						{
+							"id" : 332,
+							"textures" : [ null, "_rt_imageLayerComposite_326_a" ]
+						}
+					],
+					"visible" : true
+				},
+				{
+					"file" : "effects/waterwaves/effect.json",
+					"id" : 336,
+					"name" : "",
+					"passes" : 
+					[
+						{
+							"constantshadervalues" : 
+							{
+								"direction" : 0.89138252138704821,
+								"speed" : 1.8999999999999999,
+								"strength" : 0.029999999999999999
+							},
+							"id" : 337,
+							"textures" : 
+							[
+								null,
+								"masks/waterwaves_mask_b84aaa979b81a080e1c45d2cc48fe0b382ca656b"
+							]
+						}
+					],
+					"visible" : 
+					{
+						"user" : "fishmovement",
+						"value" : true
+					}
+				},
+				{
+					"file" : "effects/shake/effect.json",
+					"id" : 341,
+					"name" : "In and out",
+					"passes" : 
+					[
+						{
+							"constantshadervalues" : 
+							{
+								"speed" : 0.80000000000000004,
+								"strength" : 0.080000000000000002
+							},
+							"id" : 342,
+							"textures" : 
+							[
+								null,
+								"masks/shake_mask_4a2d41d84a7dcf3940999cf9720a068eebc82b36",
+								"util/white"
+							]
+						}
+					],
+					"visible" : 
+					{
+						"user" : "fishmovement",
+						"value" : true
+					}
+				},
+				{
+					"file" : "effects/shake/effect.json",
+					"id" : 347,
+					"name" : "Under in and out",
+					"passes" : 
+					[
+						{
+							"constantshadervalues" : 
+							{
+								"speed" : 0.80000000000000004,
+								"strength" : 0.040000000000000001
+							},
+							"id" : 348,
+							"textures" : 
+							[
+								null,
+								"masks/shake_mask_4202550e4dcc5feb1a129e72ae6e082ba0178b86",
+								"masks/shake_mask_74d3ec40910d18f16b2226e4ca19458ac2552216"
+							]
+						}
+					],
+					"visible" : 
+					{
+						"user" : "fishmovement",
+						"value" : true
+					}
+				},
+				{
+					"file" : "effects/shake/effect.json",
+					"id" : 353,
+					"name" : "Side to side",
+					"passes" : 
+					[
+						{
+							"constantshadervalues" : 
+							{
+								"speed" : 0.59999999999999998,
+								"strength" : 0.059999999999999998
+							},
+							"id" : 354,
+							"textures" : 
+							[
+								null,
+								"masks/shake_mask_eb8253a662e29aa081e988df9b510990ff1507b4",
+								"util/white"
+							]
+						}
+					],
+					"visible" : 
+					{
+						"user" : "fishmovement",
+						"value" : true
+					}
+				},
+				{
+					"file" : "effects/waterripple/effect.json",
+					"id" : 369,
+					"name" : "",
+					"passes" : 
+					[
+						{
+							"constantshadervalues" : 
+							{
+								"animationspeed" : 0.10000000000000001,
+								"ripplestrength" : 0.080000000000000002,
+								"scale" : 0.29999999999999999
+							},
+							"id" : 370,
+							"textures" : [ null, "util/white", "effects/waterripplenormal" ]
+						}
+					],
+					"visible" : true
+				},
+				{
+					"file" : "effects/scroll/effect.json",
+					"id" : 359,
+					"name" : "",
+					"passes" : 
+					[
+						{
+							"constantshadervalues" : 
+							{
+								"repeat" : "1 1",
+								"speedx" : 0,
+								"speedy" : 0.10000000000000001
+							},
+							"id" : 361
+						}
+					],
+					"visible" : 
+					{
+						"user" : "fishmovement",
+						"value" : true
+					}
+				}
+			],
+			"id" : 326,
+			"image" : "models/JellyFish3.0.json",
+			"ledsource" : false,
+			"locktransforms" : false,
+			"name" : "JellyFishLeft",
+			"origin" : "-279.734 1245.716 0.000",
+			"parallaxDepth" : "1.000 1.000",
+			"perspective" : false,
+			"scale" : "1.040 1.040 1.040",
+			"size" : "3840.000 2160.000",
+			"solid" : true,
+			"visible" : 
+			{
+				"user" : "seaanimals",
+				"value" : true
+			}
+		},
+		{
+			"angles" : "0.000 -0.000 1.588",
+			"id" : 483,
+			"instanceoverride" : 
+			{
+				"alpha" : 0.89999997615814209,
+				"colorn" : "1.000 0.980 0.365",
+				"id" : 484,
+				"size" : 1.2999999523162842
+			},
+			"locktransforms" : false,
+			"name" : "Fireflies",
+			"origin" : "3549.238 1707.217 0.000",
+			"parallaxDepth" : "1.000 1.000",
+			"particle" : "particles/presets/fireflies.json",
+			"scale" : "1.159 1.159 1.159",
+			"visible" : 
+			{
+				"user" : "oceanlight",
+				"value" : true
+			}
+		},
+		{
+			"alignment" : "center",
+			"alpha" : 1.0,
+			"angles" : "0.000 -0.000 0.083",
+			"color" : "1.000 1.000 1.000",
+			"colorBlendMode" : 0,
+			"copybackground" : true,
+			"effects" : 
+			[
+				{
+					"file" : "effects/waterwaves/effect.json",
+					"id" : 631,
+					"name" : "fin",
+					"passes" : 
+					[
+						{
+							"constantshadervalues" : 
+							{
+								"direction" : 0.69813170079773179,
+								"scale" : 20,
+								"speed" : 3.3999999999999999,
+								"strength" : 0.059999999999999998
+							},
+							"id" : 632,
+							"textures" : 
+							[
+								null,
+								"masks/waterwaves_mask_fa1bd943a5742647b65f6e4b6ca24fc8532dc947"
+							]
+						}
+					],
+					"visible" : 
+					{
+						"user" : "fishmovement",
+						"value" : true
+					}
+				},
+				{
+					"file" : "effects/shake/effect.json",
+					"id" : 621,
+					"name" : "Up and down",
+					"passes" : 
+					[
+						{
+							"constantshadervalues" : 
+							{
+								"speed" : 0.75,
+								"strength" : 0.080000000000000002
+							},
+							"id" : 622,
+							"textures" : 
+							[
+								null,
+								"masks/shake_mask_18e82c3cd8f6c608094a151127fd5fb71743dcf7",
+								"util/white"
+							]
+						}
+					],
+					"visible" : 
+					{
+						"user" : "fishmovement",
+						"value" : true
+					}
+				},
+				{
+					"file" : "effects/scroll/effect.json",
+					"id" : 575,
+					"name" : "",
+					"passes" : 
+					[
+						{
+							"constantshadervalues" : 
+							{
+								"repeat" : "1 1",
+								"speedx" : 0.11,
+								"speedy" : 0
+							},
+							"id" : 576
+						}
+					],
+					"visible" : 
+					{
+						"user" : "fishmovement",
+						"value" : true
+					}
+				},
+				{
+					"file" : "effects/blurprecise/effect.json",
+					"id" : 237,
+					"name" : "",
+					"passes" : 
+					[
+						{
+							"constantshadervalues" : 
+							{
+								"scale" : "2 2"
+							},
+							"id" : 238
+						},
+						{
+							"combos" : 
+							{
+								"VERTICAL" : 1
+							},
+							"constantshadervalues" : 
+							{
+								"scale" : "2 2"
+							},
+							"id" : 239
+						}
+					],
+					"visible" : true
+				}
+			],
+			"id" : 573,
+			"image" : "models/Shark.json",
+			"ledsource" : false,
+			"locktransforms" : false,
+			"name" : "Shark top",
+			"origin" : "1785.524 2521.988 0.000",
+			"parallaxDepth" : "1.000 1.000",
+			"perspective" : false,
+			"scale" : "-1.059 1.034 1.000",
+			"size" : "3840.000 2160.000",
+			"solid" : true,
+			"visible" : 
+			{
+				"user" : "seaanimals",
+				"value" : true
+			}
+		},
+		{
+			"alignment" : "center",
+			"alpha" : 1.0,
+			"angles" : "0.000 0.000 -0.043",
+			"color" : "1.000 1.000 1.000",
+			"colorBlendMode" : 0,
+			"copybackground" : true,
+			"effects" : 
+			[
+				{
+					"file" : "effects/waterwaves/effect.json",
+					"id" : 582,
+					"name" : "fin",
+					"passes" : 
+					[
+						{
+							"constantshadervalues" : 
+							{
+								"direction" : 0.57907426936773088,
+								"scale" : 20,
+								"speed" : 4,
+								"strength" : 0.070000000000000007
+							},
+							"id" : 583,
+							"textures" : 
+							[
+								null,
+								"masks/waterwaves_mask_fd7415d67c5247b299c35e2abb692e6e8c55b61e"
+							]
+						}
+					],
+					"visible" : 
+					{
+						"user" : "fishmovement",
+						"value" : true
+					}
+				},
+				{
+					"file" : "effects/shake/effect.json",
+					"id" : 604,
+					"name" : "up and down",
+					"passes" : 
+					[
+						{
+							"constantshadervalues" : 
+							{
+								"speed" : 0.75,
+								"strength" : 0.080000000000000002
+							},
+							"id" : 605,
+							"textures" : 
+							[
+								null,
+								"masks/shake_mask_ce490cacd1720a2bdb4e3f6dd61a60b4254812f7",
+								"util/white"
+							]
+						}
+					],
+					"visible" : 
+					{
+						"user" : "fishmovement",
+						"value" : true
+					}
+				},
+				{
+					"file" : "effects/scroll/effect.json",
+					"id" : 578,
+					"name" : "",
+					"passes" : 
+					[
+						{
+							"constantshadervalues" : 
+							{
+								"speedx" : 0.13,
+								"speedy" : 0
+							},
+							"id" : 579
+						}
+					],
+					"visible" : 
+					{
+						"user" : "fishmovement",
+						"value" : true
+					}
+				},
+				{
+					"file" : "effects/blurprecise/effect.json",
+					"id" : 221,
+					"name" : "",
+					"passes" : 
+					[
+						{
+							"constantshadervalues" : 
+							{
+								"scale" : "2 2"
+							},
+							"id" : 222
+						},
+						{
+							"combos" : 
+							{
+								"VERTICAL" : 1
+							},
+							"constantshadervalues" : 
+							{
+								"scale" : "2 2"
+							},
+							"id" : 223
+						}
+					],
+					"visible" : true
+				}
+			],
+			"id" : 32,
+			"image" : "models/Shark.json",
+			"ledsource" : false,
+			"locktransforms" : false,
+			"name" : "Shark bot",
+			"origin" : "1440.315 1414.745 0.000",
+			"parallaxDepth" : "1.000 1.000",
+			"perspective" : false,
+			"scale" : "1.389 1.389 1.389",
+			"size" : "3840.000 2160.000",
+			"solid" : true,
+			"visible" : 
+			{
+				"user" : "seaanimals",
+				"value" : true
+			}
+		},
+		{
+			"angles" : "0.000 -0.000 0.005",
+			"id" : 688,
+			"instanceoverride" : 
+			{
+				"alpha" : 0.89999997615814209,
+				"colorn" : "1.000 0.980 0.365",
+				"count" : 1.2000000476837158,
+				"id" : 690,
+				"size" : 1.2999999523162842
+			},
+			"locktransforms" : false,
+			"name" : "Fireflies",
+			"origin" : "2878.199 429.160 0.000",
+			"parallaxDepth" : "1.000 1.000",
+			"particle" : "particles/presets/fireflies.json",
+			"scale" : "1.077 1.077 1.077",
+			"visible" : 
+			{
+				"user" : "oceanlight",
+				"value" : true
+			}
+		},
+		{
+			"angles" : "0.000 -0.000 0.005",
+			"id" : 889,
+			"instanceoverride" : 
+			{
+				"alpha" : 0.89999997615814209,
+				"colorn" : "1.000 0.980 0.365",
+				"id" : 891,
+				"size" : 1.2999999523162842
+			},
+			"locktransforms" : false,
+			"name" : "Fireflies",
+			"origin" : "662.839 1709.992 0.000",
+			"parallaxDepth" : "1.000 1.000",
+			"particle" : "particles/presets/fireflies.json",
+			"scale" : "1.298 1.298 1.298",
+			"visible" : 
+			{
+				"user" : "oceanlight",
+				"value" : true
+			}
+		},
+		{
+			"angles" : "0.000 0.000 0.000",
+			"id" : 364,
+			"instanceoverride" : 
+			{
+				"alpha" : 0.40000000596046448,
+				"colorn" : "1.000 1.000 1.000",
+				"id" : 365,
+				"rate" : 0.80000001192092896
+			},
+			"locktransforms" : false,
+			"name" : "Light shafts 1",
+			"origin" : "1585.754 1489.481 0.000",
+			"parallaxDepth" : "1.000 1.000",
+			"particle" : "particles/presets/light_shafts_1.json",
+			"scale" : "-2.750 1.750 1.750",
+			"visible" : 
+			{
+				"user" : "lightshaft",
+				"value" : true
+			}
+		},
+		{
+			"angles" : "0.000 0.000 0.000",
+			"id" : 19139,
+			"instanceoverride" : 
+			{
+				"alpha" : 0.80000001192092896,
+				"id" : 19140,
+				"size" : 2.0199999809265137
+			},
+			"locktransforms" : false,
+			"name" : "Dust motes",
+			"origin" : "1948.595 1097.073 0.000",
+			"parallaxDepth" : "1.000 1.000",
+			"particle" : "particles/presets/dust_motes_0.json",
+			"scale" : "1.738 1.738 1.738",
+			"visible" : 
+			{
+				"user" : "tinybubbles",
+				"value" : true
+			}
+		},
+		{
+			"angles" : "0.000 -0.000 -3.100",
+			"id" : 19315,
+			"instanceoverride" : 
+			{
+				"alpha" : 0.80000001192092896,
+				"id" : 257,
+				"size" : 2.0199999809265137
+			},
+			"locktransforms" : false,
+			"name" : "Dust motes",
+			"origin" : "1948.595 1097.073 0.000",
+			"parallaxDepth" : "1.000 1.000",
+			"particle" : "particles/presets/dust_motes_0.json",
+			"scale" : "1.738 1.738 1.738",
+			"visible" : 
+			{
+				"user" : "tinybubbles",
+				"value" : true
+			}
+		},
+		{
+			"alignment" : "center",
+			"alpha" : 1.0,
+			"color" : "1.000 1.000 1.000",
+			"colorBlendMode" : 0,
+			"copybackground" : true,
+			"effects" : 
+			[
+				{
+					"file" : "effects/blurprecise/effect.json",
+					"id" : 4277,
+					"name" : "",
+					"passes" : 
+					[
+						{
+							"constantshadervalues" : 
+							{
+								"scale" : "1.5 1.5"
+							},
+							"id" : 4278
+						},
+						{
+							"combos" : 
+							{
+								"VERTICAL" : 1
+							},
+							"constantshadervalues" : 
+							{
+								"scale" : "1.5 1.5"
+							},
+							"id" : 4279
+						}
+					],
+					"visible" : true
+				}
+			],
+			"id" : 94,
+			"image" : "models/util/fullscreenlayer.json",
+			"ledsource" : false,
+			"locktransforms" : false,
+			"name" : "Blur",
+			"parallaxDepth" : "1.000 1.000",
+			"perspective" : false,
+			"solid" : true,
+			"visible" : 
+			{
+				"user" : "backgroundblur",
+				"value" : false
+			}
+		},
+		{
+			"alignment" : "center",
+			"alpha" : 1.0,
+			"angles" : "0.000 0.000 0.000",
+			"color" : "1.000 1.000 1.000",
+			"colorBlendMode" : 0,
+			"copybackground" : true,
+			"effects" : 
+			[
+				{
+					"file" : "effects/waterripple/effect.json",
+					"id" : 513,
+					"name" : "floor movement",
+					"passes" : 
+					[
+						{
+							"constantshadervalues" : 
+							{
+								"animationspeed" : 0.14000000000000001,
+								"ripplestrength" : 0.080000000000000002,
+								"scale" : 0.29999999999999999,
+								"scrolldirection" : 1.1593400833811942
+							},
+							"id" : 514,
+							"textures" : 
+							[
+								null,
+								"masks/waterripple_mask_ee1f32872dfd7a49b4d638d4e5290235f6a6d38e",
+								"effects/waterripplenormal"
+							]
+						}
+					],
+					"visible" : true
+				}
+			],
+			"id" : 378,
+			"image" : "models/Piano2.0.json",
+			"ledsource" : false,
+			"locktransforms" : false,
+			"name" : "Piano2.0",
+			"origin" : "1916.920 1070.760 0.000",
+			"parallaxDepth" : "1.000 1.000",
+			"perspective" : false,
+			"scale" : "1.020 1.020 1.020",
+			"size" : "3840.000 2160.000",
+			"solid" : true,
+			"visible" : true
+		},
+		{
+			"alignment" : "center",
+			"alpha" : 1.0,
+			"angles" : "0.000 0.000 0.000",
+			"color" : "1.000 1.000 1.000",
+			"colorBlendMode" : 0,
+			"copybackground" : true,
+			"effects" : 
+			[
+				{
+					"file" : "effects/shine/effect.json",
+					"id" : 7977,
+					"name" : "",
+					"passes" : 
+					[
+						{
+							"constantshadervalues" : 
+							{
+								"raythreshold" : 0
+							},
+							"id" : 7978,
+							"textures" : 
+							[
+								null,
+								"masks/shine_downsample2_mask_36ce62bcec300a6727192313c920263bc9bc4096",
+								"util/clouds_256"
+							]
+						},
+						{
+							"constantshadervalues" : 
+							{
+								"rayintensity" : 1,
+								"raylength" : 0.0099999997764825821
+							},
+							"id" : 7979
+						},
+						{
+							"id" : 7980
+						},
+						{
+							"combos" : 
+							{
+								"VERTICAL" : 1
+							},
+							"id" : 7981
+						},
+						{
+							"id" : 7982,
+							"textures" : [ null, "_rt_imageLayerComposite_4296_a" ]
+						}
+					],
+					"visible" : true
+				},
+				{
+					"file" : "effects/shake/effect.json",
+					"id" : 8615,
+					"name" : "Dress Jewlery",
+					"passes" : 
+					[
+						{
+							"constantshadervalues" : 
+							{
+								"speed" : 1.5,
+								"strength" : 0.029999999999999999
+							},
+							"id" : 8616,
+							"textures" : 
+							[
+								null,
+								"masks/shake_mask_ddade403536094982c53ec13507b52893dc373c9",
+								"util/white"
+							]
+						}
+					],
+					"visible" : true
+				},
+				{
+					"file" : "effects/shake/effect.json",
+					"id" : 4442,
+					"name" : "Breathing",
+					"passes" : 
+					[
+						{
+							"constantshadervalues" : 
+							{
+								"speed" : 1.2,
+								"strength" : 0.040000000000000001
+							},
+							"id" : 0,
+							"textures" : 
+							[
+								null,
+								"masks/shake_mask_1f5f02fd55bfadeeea1e0acf1647b8c0a31ef026",
+								"util/white"
+							]
+						}
+					],
+					"visible" : 
+					{
+						"user" : "breathing",
+						"value" : true
+					}
+				}
+			],
+			"id" : 4296,
+			"image" : "models/Girl2.0.json",
+			"ledsource" : false,
+			"locktransforms" : false,
+			"name" : "Girl2.0",
+			"origin" : "1916.517 1075.834 0.000",
+			"parallaxDepth" : "1.000 1.000",
+			"perspective" : false,
+			"scale" : "1.030 1.030 1.030",
+			"size" : "3840.000 2160.000",
+			"solid" : true,
+			"visible" : true
+		},
+		{
+			"alignment" : "center",
+			"alpha" : 0.15000000596046448,
+			"angles" : "0.000 0.000 0.000",
+			"color" : "1.000 1.000 1.000",
+			"colorBlendMode" : 0,
+			"copybackground" : true,
+			"id" : 2022,
+			"image" : "models/maxresdefault.json",
+			"ledsource" : false,
+			"locktransforms" : false,
+			"name" : "BlackFull",
+			"origin" : "1968.602 1065.215 0.000",
+			"parallaxDepth" : "1.000 1.000",
+			"perspective" : false,
+			"scale" : "3.200 3.200 3.200",
+			"size" : "1280.000 720.000",
+			"solid" : true,
+			"visible" : 
+			{
+				"user" : "darkmode",
+				"value" : false
+			}
+		},
+		{
+			"alpha" : 1.0,
+			"anchor" : "none",
+			"angles" : "0.000 0.000 0.000",
+			"backgroundcolor" : "0.000 0.000 0.000",
+			"color" : "1.000 1.000 1.000",
+			"colorBlendMode" : 0,
+			"copybackground" : true,
+			"font" : "systemfont_arial",
+			"horizontalalign" : "center",
+			"id" : 2938,
+			"ledsource" : false,
+			"locktransforms" : false,
+			"name" : "Art By WLOP",
+			"opaquebackground" : false,
+			"origin" : "243.402 2118.433 0.000",
+			"padding" : 32,
+			"parallaxDepth" : "1.000 1.000",
+			"perspective" : false,
+			"pointsize" : 32.0,
+			"scale" : "0.566 0.566 0.566",
+			"size" : "775.000 153.000",
+			"solid" : true,
+			"text" : "Art by WLOP",
+			"verticalalign" : "center",
+			"visible" : 
+			{
+				"user" : "credit",
+				"value" : false
+			}
+		},
+		{
+			"alpha" : 1.0,
+			"anchor" : "none",
+			"angles" : "0.000 0.000 0.000",
+			"backgroundcolor" : "0.000 0.000 0.000",
+			"color" : "1.000 1.000 1.000",
+			"colorBlendMode" : 0,
+			"copybackground" : true,
+			"font" : "systemfont_arial",
+			"horizontalalign" : "center",
+			"id" : 3176,
+			"ledsource" : false,
+			"locktransforms" : false,
+			"name" : "Text Layer",
+			"opaquebackground" : false,
+			"origin" : "395.875 2028.606 0.000",
+			"padding" : 32,
+			"parallaxDepth" : "1.000 1.000",
+			"perspective" : false,
+			"pointsize" : 32.0,
+			"scale" : "0.602 0.602 0.602",
+			"size" : "1247.000 153.000",
+			"solid" : true,
+			"text" : "Animations by Atham",
+			"verticalalign" : "center",
+			"visible" : 
+			{
+				"user" : "credit",
+				"value" : false
+			}
+		},
+		{
+			"alpha" : 1.0,
+			"anchor" : "none",
+			"angles" : "0.000 0.000 0.000",
+			"backgroundcolor" : "0.000 0.000 0.000",
+			"color" : "1.000 1.000 1.000",
+			"colorBlendMode" : 0,
+			"copybackground" : true,
+			"font" : "fonts/Alcubierre.otf",
+			"horizontalalign" : "center",
+			"id" : 3512,
+			"ledsource" : false,
+			"locktransforms" : false,
+			"name" : "Text Layer",
+			"opaquebackground" : false,
+			"origin" : "1918.461 275.732 0.000",
+			"padding" : 32,
+			"parallaxDepth" : "1.000 1.000",
+			"perspective" : false,
+			"pointsize" : 32.0,
+			"scale" : "1.021 1.021 1.021",
+			"size" : "564.000 156.000",
+			"solid" : true,
+			"text" : "Text Layer",
+			"verticalalign" : "center",
+			"visible" : 
+			{
+				"script" : "'use strict';\n\nlet morningGreetings = [\n\t'Good morning,\\n$!',\n\t'Hi $,\\ndid you sleep well?',\n\t'Rise and shine, $.'\n];\n\nlet middayGreetings = [\n\t'Good day, $.',\n\t'Hi $,\\nhow is it going?'\n];\n\nlet afternoonGreetings = [\n\t'Good afternoon, $.',\n\t'Hi $,\\nhow is your day going?'\n];\n\nlet eveningGreetings = [\n\t'Good evening, $.',\n\t'Have a nice evening, $!',\n\t'Hi $,\\nhow has your day been?'\n];\n\nlet nightGreetings = [\n\t'Late night session, $?',\n\t'$, it\\'s getting late!'\n];\n\n/**\n * @param {String} value (for property 'text')\n */\nvar lastString;\nvar lastTimeTag;\nvar stringIndex = 0;\nexport function update() {\n\n\tlet hour = new Date().getHours();\n\tlet timeTag = hour < 5 ? 'night' : hour < 10 ? 'morning' : hour < 14 ? 'day' : hour < 18 ? 'afternoon' : hour < 23 ? 'evening' : 'night';\n\tconsole.log(hour, timeTag);\n\tvar stringList;\n\tswitch (timeTag) {\n\t\tcase 'morning':\n\t\tstringList = morningGreetings;\n\t\tbreak;\n\t\tcase 'day':\n\t\tstringList = middayGreetings;\n\t\tbreak;\n\t\tcase 'afternoon':\n\t\tstringList = afternoonGreetings;\n\t\tbreak;\n\t\tcase 'evening':\n\t\tstringList = eveningGreetings;\n\t\tbreak;\n\t\tcase 'night':\n\t\tstringList = nightGreetings;\n\t\tbreak;\n\t}\n\n\tif (lastTimeTag != timeTag) {\n\t\tlastTimeTag = timeTag;\n\t\tstringIndex = Math.floor(Math.random() * stringList.length);\n\t}\n\n\tlet newString = stringList[stringIndex];\n\n\tif (newString != lastString) {\n\t\tlastString = newString;\n\t\tthisLayer.text = newString.replace('$', engine.userProperties.name);\n\t}\n}\n\n/**\n * @param {Object} userProperties\n */\nexport function applyUserProperties() {\n\tlastString = '';\n}",
+				"user" : "greatingtext",
+				"value" : true
+			}
+		},
+		{
+			"angles" : "0.000 0.000 0.000",
+			"id" : 366,
+			"locktransforms" : false,
+			"maxtime" : 5.0,
+			"mintime" : 1.0,
+			"muteineditor" : true,
+			"name" : "Always - Peder B. Helland [Beautiful Piano Tutorial with Synthesia].mp3",
+			"origin" : "0.000 0.000 0.000",
+			"parallaxDepth" : "1.000 1.000",
+			"playbackmode" : "loop",
+			"scale" : "1.000 1.000 1.000",
+			"sound" : 
+			[
+				"sounds/Always - Peder B. Helland [Beautiful Piano Tutorial with Synthesia].mp3"
+			],
+			"startsilent" : false,
+			"volume" : 0.75
+		}
+	]
+}

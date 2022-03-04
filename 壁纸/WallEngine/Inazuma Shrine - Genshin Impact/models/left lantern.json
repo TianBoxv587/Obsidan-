@@ -1,0 +1,6 @@
+{
+	"autosize" : true,
+	"cropoffset" : "36.50000 -182.00000",
+	"material" : "materials/left lantern.json",
+	"puppet" : "models/left lantern_puppet.mdl"
+}

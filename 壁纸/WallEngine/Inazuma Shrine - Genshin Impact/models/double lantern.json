@@ -1,0 +1,6 @@
+{
+	"autosize" : true,
+	"cropoffset" : "-237.00000 -244.50000",
+	"material" : "materials/double lantern.json",
+	"puppet" : "models/double lantern_puppet.mdl"
+}

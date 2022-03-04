@@ -1,0 +1,343 @@
+{
+	"camera" : 
+	{
+		"center" : "231.052 -91.167 -1.000",
+		"eye" : "231.052 -91.167 0.000",
+		"up" : "0.000 1.000 0.000"
+	},
+	"general" : 
+	{
+		"ambientcolor" : "0.3 0.3 0.3",
+		"bloom" : true,
+		"bloomstrength" : 0.01,
+		"bloomthreshold" : 0.33000000000000002,
+		"camerafade" : true,
+		"cameraparallax" : false,
+		"cameraparallaxamount" : 0.5,
+		"cameraparallaxdelay" : 0.10000000149011612,
+		"cameraparallaxmouseinfluence" : 0,
+		"camerapreview" : true,
+		"camerashake" : false,
+		"camerashakeamplitude" : 0.5,
+		"camerashakeroughness" : 1,
+		"camerashakespeed" : 3,
+		"clearcolor" : "0.42745098039215684 0.4470588235294118 0.4666666666666667",
+		"orthogonalprojection" : 
+		{
+			"height" : 1071,
+			"width" : 1800
+		},
+		"skylightcolor" : "0.3 0.3 0.3"
+	},
+	"objects" : 
+	[
+		{
+			"angles" : "0.000 0.000 0.000",
+			"colorBlendMode" : 0,
+			"copybackground" : true,
+			"dependencies" : [ 12, 12, 12, 12, 12 ],
+			"effects" : 
+			[
+				{
+					"file" : "effects/clouds/effect.json",
+					"passes" : 
+					[
+						{
+							"textures" : 
+							[
+								null,
+								"util/clouds_256",
+								"masks/clouds_mask_ee0d9bbc6d0516b8583c8fb3e841485c0b7ec4e8"
+							]
+						}
+					]
+				},
+				{
+					"file" : "effects/opacity/effect.json",
+					"passes" : 
+					[
+						{
+							"textures" : [ null, "masks/opacity_mask_681d95af21112ea41fc4cd51aa49d9c553ef1173" ]
+						}
+					]
+				},
+				{
+					"file" : "effects/pulse/effect.json",
+					"passes" : 
+					[
+						{
+							"constantshadervalues" : 
+							{
+								"ui_editor_properties_noise_speed" : 0.029999999329447746,
+								"ui_editor_properties_power" : 0.25,
+								"ui_editor_properties_pulse_amount" : 0.25,
+								"ui_editor_properties_pulse_speed" : 0.76999998092651367,
+								"ui_editor_properties_tint_high" : "1 1 1",
+								"ui_editor_properties_tint_low" : "0.996078 0.670588 0.4"
+							},
+							"textures" : 
+							[
+								null,
+								"util/noise",
+								"masks/pulse_mask_15c0e340127e863c97e552f860f4a84c3cb6ab74"
+							]
+						}
+					]
+				},
+				{
+					"file" : "effects/godrays/effect.json",
+					"passes" : 
+					[
+						{
+							"constantshadervalues" : 
+							{
+								"ui_editor_properties_ray_threshold" : 0.46000000834465027
+							},
+							"textures" : 
+							[
+								null,
+								"masks/godrays_downsample2_mask_ddade403536094982c53ec13507b52893dc373c9"
+							]
+						},
+						{
+							"constantshadervalues" : 
+							{
+								"ui_editor_properties_color_end" : "0.7176470588235294 0.5607843137254902 0.44313725490196076",
+								"ui_editor_properties_color_start" : "0.9647058823529412 0.6313725490196078 0.4196078431372549"
+							}
+						},
+						{},
+						{
+							"combos" : 
+							{
+								"VERTICAL" : 1
+							}
+						},
+						{
+							"textures" : [ null, "_rt_imageLayerComposite_12_b" ]
+						}
+					]
+				},
+				{
+					"file" : "effects/godrays/effect.json",
+					"passes" : 
+					[
+						{
+							"constantshadervalues" : 
+							{
+								"ui_editor_properties_ray_threshold" : 0.46000000834465027
+							},
+							"textures" : 
+							[
+								null,
+								"masks/godrays_downsample2_mask_55ef9c155192cdd811c5f5aa712f16afc352c033"
+							]
+						},
+						{
+							"constantshadervalues" : 
+							{
+								"ui_editor_properties_color_end" : "1 1 1",
+								"ui_editor_properties_color_start" : "1 1 1",
+								"ui_editor_properties_ray_intensity" : 0.68000000715255737
+							}
+						},
+						{},
+						{
+							"combos" : 
+							{
+								"VERTICAL" : 1
+							}
+						},
+						{
+							"textures" : [ null, "_rt_imageLayerComposite_12_a" ]
+						}
+					]
+				},
+				{
+					"file" : "effects/waterflow/effect.json",
+					"passes" : 
+					[
+						{
+							"textures" : 
+							[
+								null,
+								"masks/waterflow_mask_913936bac76e4f4f7c9c862e719c2891846afba2",
+								"effects/waterflowphase"
+							]
+						}
+					]
+				},
+				{
+					"file" : "effects/godrays/effect.json",
+					"passes" : 
+					[
+						{
+							"textures" : 
+							[
+								null,
+								"masks/godrays_downsample2_mask_6d2ea5761883126cfacc9dd5d3995c5a6ed6a856"
+							]
+						},
+						{
+							"constantshadervalues" : 
+							{
+								"ui_editor_properties_color_end" : "1 1 1",
+								"ui_editor_properties_color_start" : "0.976471 0.827451 0.52549"
+							}
+						},
+						{},
+						{
+							"combos" : 
+							{
+								"VERTICAL" : 1
+							}
+						},
+						{
+							"textures" : [ null, "_rt_imageLayerComposite_12_a" ]
+						}
+					]
+				},
+				{
+					"file" : "effects/waterflow/effect.json",
+					"passes" : 
+					[
+						{
+							"textures" : 
+							[
+								null,
+								"masks/waterflow_mask_ee0d9bbc6d0516b8583c8fb3e841485c0b7ec4e8",
+								"effects/waterflowphase"
+							]
+						}
+					]
+				},
+				{
+					"file" : "effects/godrays/effect.json",
+					"passes" : 
+					[
+						{
+							"textures" : 
+							[
+								null,
+								"masks/godrays_downsample2_mask_bdbea347ab7838b0661ae6af118d7d24d301b354"
+							]
+						},
+						{
+							"constantshadervalues" : 
+							{
+								"ui_editor_properties_color_end" : "0.6823529411764706 0.5333333333333333 0.4392156862745098",
+								"ui_editor_properties_color_start" : "0.9921568627450981 0.7568627450980392 0.47058823529411764"
+							}
+						},
+						{},
+						{
+							"combos" : 
+							{
+								"VERTICAL" : 1
+							}
+						},
+						{
+							"textures" : [ null, "_rt_imageLayerComposite_12_a" ]
+						}
+					]
+				},
+				{
+					"file" : "effects/pulse/effect.json",
+					"passes" : 
+					[
+						{
+							"constantshadervalues" : 
+							{
+								"ui_editor_properties_power" : 0.31000000238418579,
+								"ui_editor_properties_pulse_amount" : 0.029999999329447746,
+								"ui_editor_properties_pulse_speed" : 0.92000001668930054,
+								"ui_editor_properties_tint_high" : "0.992157 0.917647 0.792157",
+								"ui_editor_properties_tint_low" : "0.490196 0.494118 0.576471"
+							},
+							"textures" : 
+							[
+								null,
+								"util/noise",
+								"masks/pulse_mask_8b8f579747e6b7275c73e8356c48f21c13330d68"
+							]
+						}
+					]
+				},
+				{
+					"file" : "effects/godrays/effect.json",
+					"passes" : 
+					[
+						{
+							"textures" : 
+							[
+								null,
+								"masks/godrays_downsample2_mask_2056d10e108144c65bea005697dd88d5b58d3b9d"
+							]
+						},
+						{
+							"constantshadervalues" : 
+							{
+								"ui_editor_properties_color_end" : "1 0.878431 0.435294",
+								"ui_editor_properties_color_start" : "0.996078 0.898039 0.321569"
+							}
+						},
+						{},
+						{
+							"combos" : 
+							{
+								"VERTICAL" : 1
+							}
+						},
+						{
+							"textures" : [ null, "_rt_imageLayerComposite_12_a" ]
+						}
+					]
+				}
+			],
+			"id" : 12,
+			"image" : "models/Battlefield-Игры-Battlefield-1-Игровой-арт-3898282.json",
+			"name" : "Battlefield-Игры-Battlefield-1-Игровой-арт-3898282",
+			"origin" : "900.621 535.704 0.000",
+			"parallaxDepth" : "1.000 1.000",
+			"scale" : "1.000 1.000 1.000",
+			"size" : "1800.000 1071.000",
+			"visible" : true
+		},
+		{
+			"angles" : "0.000 0.000 0.000",
+			"id" : 226,
+			"image" : null,
+			"model" : null,
+			"name" : "Light rays",
+			"origin" : "598.047 612.678 0.000",
+			"parallaxDepth" : "1.000 1.000",
+			"particle" : "particles/presets/lightshafts.json",
+			"particlesrc" : null,
+			"scale" : "1.000 1.000 1.000"
+		},
+		{
+			"angles" : "0.000 0.000 0.000",
+			"id" : 245,
+			"image" : null,
+			"model" : null,
+			"name" : "Light rays",
+			"origin" : "1429.482 -6.222 0.000",
+			"parallaxDepth" : "1.000 1.000",
+			"particle" : "particles/presets/lightshafts.json",
+			"particlesrc" : null,
+			"scale" : "1.000 1.000 1.000"
+		},
+		{
+			"angles" : "0.000 0.000 0.000",
+			"id" : 249,
+			"image" : null,
+			"model" : null,
+			"name" : "Ember small",
+			"origin" : "1451.232 -23.530 0.000",
+			"parallaxDepth" : "1.000 1.000",
+			"particle" : "particles/presets/ember_small.json",
+			"particlesrc" : null,
+			"scale" : "1.000 1.000 1.000"
+		}
+	]
+}

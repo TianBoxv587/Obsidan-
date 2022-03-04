@@ -1,0 +1,25 @@
+{
+	"passes" : 
+	[
+		{
+			"blending" : "translucent",
+			"combos" : 
+			{
+				"LIGHTING" : 1,
+				"REFLECTION" : 1,
+				"VERSION" : 2
+			},
+			"constantshadervalues" : 
+			{
+				"metallic" : 0.39000000000000001,
+				"reflectivity" : 0.34999999999999998,
+				"roughness" : 1
+			},
+			"cullmode" : "nocull",
+			"depthtest" : "disabled",
+			"depthwrite" : "disabled",
+			"shader" : "genericimage2",
+			"textures" : [ "Robot_Head", "Robot_Head_normal" ]
+		}
+	]
+}

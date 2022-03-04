@@ -1,0 +1,5 @@
+{
+	"autosize" : true,
+	"material" : "materials/Crane.json",
+	"puppet" : "models/Crane_puppet.mdl"
+}
